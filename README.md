@@ -53,7 +53,7 @@ PureWeather uses [Weblate](https://weblate.org/) for translations. If you would 
 License
 ---
 ```
-    Copyright 2019 - 2023 Tyler Williamson
+    Copyright 2019 - 2023 CWorld
 
     This file is part of PureWeather.
 
