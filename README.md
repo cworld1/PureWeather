@@ -4,12 +4,9 @@
 
  Weather at a glance! Current and forecast weather for anywhere in the world!
 
-[<img src="https://fdroid.gitlab.io/artwork/badge/get-it-on.png"
-     alt="Get it on F-Droid"
-     height="80">](https://f-droid.org/packages/com.cworld.pureweather/)
-[<img src="https://play.google.com/intl/en_us/badges/images/generic/en-play-badge.png"
-     alt="Get it on Google Play"
-     height="80">](https://play.google.com/store/apps/details?id=com.cworld.pureweather)
+[<img src="https://user-images.githubusercontent.com/74561130/137598555-649c77c7-1719-4aa3-8017-8b41283de730.png"
+     alt="Get it on Releases"
+     height="80">](./releases)
 
 Description
 ---
