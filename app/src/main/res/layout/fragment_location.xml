@@ -1,20 +1,20 @@
 <?xml version="1.0" encoding="utf-8"?><!--
   ~   Copyright 2019 - 2023 Tyler Williamson
   ~
-  ~   This file is part of QuickWeather.
+  ~   This file is part of PureWeather.
   ~
-  ~   QuickWeather is free software: you can redistribute it and/or modify
+  ~   PureWeather is free software: you can redistribute it and/or modify
   ~   it under the terms of the GNU General Public License as published by
   ~   the Free Software Foundation, either version 3 of the License, or
   ~   (at your option) any later version.
   ~
-  ~   QuickWeather is distributed in the hope that it will be useful,
+  ~   PureWeather is distributed in the hope that it will be useful,
   ~   but WITHOUT ANY WARRANTY; without even the implied warranty of
   ~   MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
   ~   GNU General Public License for more details.
   ~
   ~   You should have received a copy of the GNU General Public License
-  ~   along with QuickWeather.  If not, see <https://www.gnu.org/licenses/>.
+  ~   along with PureWeather.  If not, see <https://www.gnu.org/licenses/>.
   -->
 
 <androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
@@ -32,7 +32,7 @@
         android:paddingEnd="@dimen/margin_standard">
 
         <TextView
-            style="@style/QuickWeather.Text.Title"
+            style="@style/PureWeather.Text.Title"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
@@ -44,7 +44,7 @@
 
             <com.google.android.material.button.MaterialButton
                 android:id="@+id/button_here"
-                style="@style/QuickWeather.Button"
+                style="@style/PureWeather.Button"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="3"
@@ -52,7 +52,7 @@
 
             <com.google.android.material.button.MaterialButton
                 android:id="@+id/button_current_location"
-                style="@style/QuickWeather.Button"
+                style="@style/PureWeather.Button"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="@dimen/margin_half"
@@ -67,7 +67,7 @@
 
             <com.google.android.material.button.MaterialButton
                 android:id="@+id/button_other_location"
-                style="@style/QuickWeather.Button"
+                style="@style/PureWeather.Button"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="3"
@@ -75,7 +75,7 @@
 
             <com.google.android.material.button.MaterialButton
                 android:id="@+id/button_map"
-                style="@style/QuickWeather.Button"
+                style="@style/PureWeather.Button"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="@dimen/margin_half"
@@ -84,7 +84,7 @@
                 app:icon="@drawable/ic_map_white_24dp" />
         </LinearLayout>
 
-        <com.ominous.quickweather.view.LocationDragListView
+        <com.cworld.pureweather.view.LocationDragListView
             android:id="@+id/drag_list_view"
             android:layout_width="match_parent"
             android:layout_height="0dp"
@@ -92,7 +92,7 @@
             android:layout_weight="1" />
 
         <com.ominous.tylerutils.view.LinkedTextView
-            style="@style/QuickWeather.Text"
+            style="@style/PureWeather.Text"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center"

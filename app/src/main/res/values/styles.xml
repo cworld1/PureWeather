@@ -1,34 +1,34 @@
 <!--
   ~   Copyright 2019 - 2023 Tyler Williamson
   ~
-  ~   This file is part of QuickWeather.
+  ~   This file is part of PureWeather.
   ~
-  ~   QuickWeather is free software: you can redistribute it and/or modify
+  ~   PureWeather is free software: you can redistribute it and/or modify
   ~   it under the terms of the GNU General Public License as published by
   ~   the Free Software Foundation, either version 3 of the License, or
   ~   (at your option) any later version.
   ~
-  ~   QuickWeather is distributed in the hope that it will be useful,
+  ~   PureWeather is distributed in the hope that it will be useful,
   ~   but WITHOUT ANY WARRANTY; without even the implied warranty of
   ~   MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
   ~   GNU General Public License for more details.
   ~
   ~   You should have received a copy of the GNU General Public License
-  ~   along with QuickWeather.  If not, see <https://www.gnu.org/licenses/>.
+  ~   along with PureWeather.  If not, see <https://www.gnu.org/licenses/>.
   -->
 
 <resources xmlns:tools="http://schemas.android.com/tools">
     <!-- TODO additional styles, more things with styles -->
     <!-- TODO style parents -->
     <!-- TODO font -->
-    <style name="QuickWeather" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+    <style name="PureWeather" parent="Theme.MaterialComponents.DayNight.NoActionBar">
         <item name="colorPrimary">@color/background_primary</item>
         <item name="colorPrimaryDark">@color/background_primary_dark</item>
         <item name="colorAccent">@color/color_accent</item>
         <item name="android:navigationBarColor">@color/background_primary_dark</item>
         <item name="android:statusBarColor">@color/background_primary_dark</item>
-        <item name="drawerArrowStyle">@style/QuickWeather.NavDrawer.Arrow</item>
-        <item name="navigationViewStyle">@style/QuickWeather.NavDrawer</item>
+        <item name="drawerArrowStyle">@style/PureWeather.NavDrawer.Arrow</item>
+        <item name="navigationViewStyle">@style/PureWeather.NavDrawer</item>
         <item name="android:textAppearance">@style/TextAppearance.MaterialComponents.Body1</item>
         <item name="android:textSize">@dimen/text_size_regular</item>
         <item name="android:textAlignment">viewStart</item>
@@ -37,66 +37,66 @@
         <item name="android:textColorLink">@color/color_accent_text</item>
     </style>
 
-    <style name="QuickWeather.Icon">
+    <style name="PureWeather.Icon">
         <item name="tint">@color/text_primary_emphasis</item>
     </style>
 
-    <style name="QuickWeather.Text" parent="Widget.MaterialComponents.TextView">
+    <style name="PureWeather.Text" parent="Widget.MaterialComponents.TextView">
         <item name="android:ellipsize">end</item>
     </style>
 
-    <style name="QuickWeather.Text.Large" parent="QuickWeather.Text">
+    <style name="PureWeather.Text.Large" parent="PureWeather.Text">
         <item name="android:textSize">@dimen/text_size_large</item>
     </style>
 
-    <style name="QuickWeather.Text.Header" parent="QuickWeather.Text">
+    <style name="PureWeather.Text.Header" parent="PureWeather.Text">
         <item name="android:textSize">@dimen/text_size_xlarge</item>
         <item name="android:textColor">@color/text_primary_emphasis</item>
     </style>
 
-    <style name="QuickWeather.Text.Title" parent="QuickWeather.Text.Header">
+    <style name="PureWeather.Text.Title" parent="PureWeather.Text.Header">
         <item name="android:paddingBottom">@dimen/margin_standard</item>
         <item name="android:paddingTop">@dimen/margin_standard</item>
     </style>
 
-    <style name="QuickWeather.Text.Dialog" parent="QuickWeather.Text">
+    <style name="PureWeather.Text.Dialog" parent="PureWeather.Text">
         <item name="android:scrollbars">vertical</item>
         <item name="android:scrollbarThumbVertical">@color/color_accent</item>
         <item name="android:scrollbarStyle">insideInset</item>
         <item name="android:textColor">@color/text_primary_emphasis</item>
     </style>
 
-    <style name="QuickWeather.Text.RowHeader" parent="QuickWeather.Text">
+    <style name="PureWeather.Text.RowHeader" parent="PureWeather.Text">
         <item name="android:textSize">18sp</item>
         <item name="android:textAlignment">center</item>
         <item name="android:gravity">center</item>
         <item name="android:textColor">@color/text_primary_emphasis</item>
     </style>
 
-    <style name="QuickWeather.Text.Forecast" parent="QuickWeather.Text.RowHeader">
+    <style name="PureWeather.Text.Forecast" parent="PureWeather.Text.RowHeader">
         <item name="android:textAlignment">viewStart</item>
         <item name="android:gravity">start|center_vertical</item>
     </style>
 
-    <style name="QuickWeather.NavDrawer" parent="Widget.MaterialComponents.NavigationView">
+    <style name="PureWeather.NavDrawer" parent="Widget.MaterialComponents.NavigationView">
         <item name="android:textSize">@dimen/text_size_smaller</item>
         <item name="android:textStyle">bold</item>
         <item name="android:background">@color/background_primary</item>
-        <item name="textAppearanceListItem">@style/QuickWeather.Text</item>
+        <item name="textAppearanceListItem">@style/PureWeather.Text</item>
         <item name="colorControlHighlight">@android:color/transparent</item>
         <item name="itemIconTint">@color/navigation_item_text</item>
         <item name="itemRippleColor">@color/color_accent</item>
-        <item name="itemShapeAppearance">@style/QuickWeather.NavDrawer.ItemBackground</item>
+        <item name="itemShapeAppearance">@style/PureWeather.NavDrawer.ItemBackground</item>
         <item name="itemShapeFillColor">@color/navigation_item_background</item>
         <item name="itemShapeInsetStart">0dp</item>
         <item name="itemTextColor">@color/navigation_item_text</item>
     </style>
 
-    <style name="QuickWeather.NavDrawer.Arrow" parent="Widget.AppCompat.DrawerArrowToggle">
+    <style name="PureWeather.NavDrawer.Arrow" parent="Widget.AppCompat.DrawerArrowToggle">
         <item name="spinBars">true</item>
     </style>
 
-    <style name="QuickWeather.NavDrawer.ItemBackground">
+    <style name="PureWeather.NavDrawer.ItemBackground">
         <item name="cornerFamily">rounded</item>
         <item name="cornerSizeBottomLeft">0dp</item>
         <item name="cornerSizeBottomRight">@dimen/margin_standard</item>
@@ -104,7 +104,7 @@
         <item name="cornerSizeTopRight">@dimen/margin_standard</item>
     </style>
 
-    <style name="QuickWeather.Button">
+    <style name="PureWeather.Button">
         <item name="android:textAppearance">@style/TextAppearance.MaterialComponents.Button</item>
         <item name="android:padding">8dp</item>
         <item name="android:textSize">@dimen/text_size_smaller</item>
@@ -118,7 +118,7 @@
         <item name="android:minHeight">0dp</item>
     </style>
 
-    <style name="QuickWeather.OutlinedButton" parent="Widget.MaterialComponents.Button.OutlinedButton">
+    <style name="PureWeather.OutlinedButton" parent="Widget.MaterialComponents.Button.OutlinedButton">
         <item name="android:textAppearance">@style/TextAppearance.MaterialComponents.Button</item>
         <item name="android:padding">0dp</item>
         <item name="android:textSize">@dimen/text_size_smaller</item>
@@ -133,17 +133,17 @@
         <item name="android:insetBottom">0dp</item>
     </style>
 
-    <style name="QuickWeather.Slider" parent="@style/Widget.MaterialComponents.Slider">
-        <item name="labelStyle">@style/QuickWeather.Slider.Label</item>
+    <style name="PureWeather.Slider" parent="@style/Widget.MaterialComponents.Slider">
+        <item name="labelStyle">@style/PureWeather.Slider.Label</item>
     </style>
 
-    <style name="QuickWeather.Slider.Label" parent="@style/Widget.MaterialComponents.Tooltip">
+    <style name="PureWeather.Slider.Label" parent="@style/Widget.MaterialComponents.Tooltip">
         <item name="android:padding">@dimen/margin_quarter</item>
         <item name="android:textSize">@dimen/text_size_smaller</item>
         <item name="android:textColor">@color/color_white_emphasis</item>
     </style>
 
-    <style name="QuickWeather.TextInput">
+    <style name="PureWeather.TextInput">
         <item name="android:lines">1</item>
         <item name="android:maxLines">1</item>
         <item name="android:inputType">text</item>
@@ -155,14 +155,14 @@
         <item name="android:importantForAutofill" tools:targetApi="o">no</item>
     </style>
 
-    <style name="QuickWeather.TextInput.AutoComplete" parent="QuickWeather.TextInput">
+    <style name="PureWeather.TextInput.AutoComplete" parent="PureWeather.TextInput">
         <item name="android:paddingTop">@dimen/margin_standard</item>
         <item name="android:paddingBottom">@dimen/margin_standard</item>
         <item name="android:paddingStart">@dimen/margin_standard</item>
     </style>
 
     <!-- NOTE: helperText is required to prevent bug "Could not find View with ID ..." -->
-    <style name="QuickWeather.TextInput.Layout" parent="Widget.MaterialComponents.TextInputLayout.OutlinedBox">
+    <style name="PureWeather.TextInput.Layout" parent="Widget.MaterialComponents.TextInputLayout.OutlinedBox">
         <item name="errorTextColor">@color/color_red</item>
         <item name="boxStrokeErrorColor">@color/color_red</item>
         <item name="errorIconTint">@color/color_red</item>
@@ -172,7 +172,7 @@
         <item name="helperText">" "</item>
     </style>
 
-    <style name="QuickWeather.ProgressIndicator" parent="Widget.MaterialComponents.LinearProgressIndicator">
+    <style name="PureWeather.ProgressIndicator" parent="Widget.MaterialComponents.LinearProgressIndicator">
         <item name="android:indeterminate">true</item>
         <item name="android:visibility">invisible</item>
         <item name="hideAnimationBehavior">outward</item>

@@ -1,20 +1,20 @@
 <!--
   ~   Copyright 2019 - 2023 Tyler Williamson
   ~
-  ~   This file is part of QuickWeather.
+  ~   This file is part of PureWeather.
   ~
-  ~   QuickWeather is free software: you can redistribute it and/or modify
+  ~   PureWeather is free software: you can redistribute it and/or modify
   ~   it under the terms of the GNU General Public License as published by
   ~   the Free Software Foundation, either version 3 of the License, or
   ~   (at your option) any later version.
   ~
-  ~   QuickWeather is distributed in the hope that it will be useful,
+  ~   PureWeather is distributed in the hope that it will be useful,
   ~   but WITHOUT ANY WARRANTY; without even the implied warranty of
   ~   MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
   ~   GNU General Public License for more details.
   ~
   ~   You should have received a copy of the GNU General Public License
-  ~   along with QuickWeather.  If not, see <https://www.gnu.org/licenses/>.
+  ~   along with PureWeather.  If not, see <https://www.gnu.org/licenses/>.
   -->
 
 <!--suppress AndroidUnknownAttribute -->
@@ -29,7 +29,7 @@
     <uses-permission android:name="android.permission.POST_NOTIFICATIONS" />
 
     <application
-        android:name=".app.QuickWeather"
+        android:name=".app.PureWeather"
         android:enableOnBackInvokedCallback="true"
         android:allowBackup="true"
         android:dataExtractionRules="@xml/data_extraction_scheme"
@@ -41,7 +41,7 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:localeConfig="@xml/locales_config"
-        android:theme="@style/QuickWeather"
+        android:theme="@style/PureWeather"
         tools:ignore="GoogleAppIndexingWarning,UnusedAttribute">
         <activity
             android:name=".activity.MainActivity"
@@ -60,7 +60,7 @@
                 <category android:name="android.intent.category.BROWSABLE" />
             </intent-filter>
             <intent-filter>
-                <action android:name="com.ominous.quickweather.ACTION_OPENALERT" />
+                <action android:name="com.cworld.pureweather.ACTION_OPENALERT" />
             </intent-filter>
         </activity>
         <activity

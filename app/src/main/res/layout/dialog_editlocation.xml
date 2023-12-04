@@ -1,20 +1,20 @@
 <?xml version="1.0" encoding="utf-8"?><!--
   ~   Copyright 2019 - 2023 Tyler Williamson
   ~
-  ~   This file is part of QuickWeather.
+  ~   This file is part of PureWeather.
   ~
-  ~   QuickWeather is free software: you can redistribute it and/or modify
+  ~   PureWeather is free software: you can redistribute it and/or modify
   ~   it under the terms of the GNU General Public License as published by
   ~   the Free Software Foundation, either version 3 of the License, or
   ~   (at your option) any later version.
   ~
-  ~   QuickWeather is distributed in the hope that it will be useful,
+  ~   PureWeather is distributed in the hope that it will be useful,
   ~   but WITHOUT ANY WARRANTY; without even the implied warranty of
   ~   MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
   ~   GNU General Public License for more details.
   ~
   ~   You should have received a copy of the GNU General Public License
-  ~   along with QuickWeather.  If not, see <https://www.gnu.org/licenses/>.
+  ~   along with PureWeather.  If not, see <https://www.gnu.org/licenses/>.
   -->
 
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
@@ -27,28 +27,28 @@
 
     <com.google.android.material.textfield.TextInputLayout
         android:id="@+id/editlocation_location_layout"
-        style="@style/QuickWeather.TextInput.Layout"
+        style="@style/PureWeather.TextInput.Layout"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:hint="@string/dialog_edit_location_name">
 
         <com.google.android.material.textfield.TextInputEditText
             android:id="@+id/editlocation_location"
-            style="@style/QuickWeather.TextInput"
+            style="@style/PureWeather.TextInput"
             android:layout_width="match_parent"
             android:layout_height="wrap_content" />
     </com.google.android.material.textfield.TextInputLayout>
 
     <com.google.android.material.textfield.TextInputLayout
         android:id="@+id/editlocation_latitude_layout"
-        style="@style/QuickWeather.TextInput.Layout"
+        style="@style/PureWeather.TextInput.Layout"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:hint="@string/dialog_edit_location_latitude">
 
         <com.google.android.material.textfield.TextInputEditText
             android:id="@+id/editlocation_latitude"
-            style="@style/QuickWeather.TextInput"
+            style="@style/PureWeather.TextInput"
             android:digits="0123456789,.-"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -57,14 +57,14 @@
 
     <com.google.android.material.textfield.TextInputLayout
         android:id="@+id/editlocation_longitude_layout"
-        style="@style/QuickWeather.TextInput.Layout"
+        style="@style/PureWeather.TextInput.Layout"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:hint="@string/dialog_edit_location_longitude">
 
         <com.google.android.material.textfield.TextInputEditText
             android:id="@+id/editlocation_longitude"
-            style="@style/QuickWeather.TextInput"
+            style="@style/PureWeather.TextInput"
             android:digits="0123456789,.-"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"

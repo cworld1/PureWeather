@@ -1,20 +1,20 @@
 <?xml version="1.0" encoding="utf-8"?><!--
   ~   Copyright 2019 - 2023 Tyler Williamson
   ~
-  ~   This file is part of QuickWeather.
+  ~   This file is part of PureWeather.
   ~
-  ~   QuickWeather is free software: you can redistribute it and/or modify
+  ~   PureWeather is free software: you can redistribute it and/or modify
   ~   it under the terms of the GNU General Public License as published by
   ~   the Free Software Foundation, either version 3 of the License, or
   ~   (at your option) any later version.
   ~
-  ~   QuickWeather is distributed in the hope that it will be useful,
+  ~   PureWeather is distributed in the hope that it will be useful,
   ~   but WITHOUT ANY WARRANTY; without even the implied warranty of
   ~   MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
   ~   GNU General Public License for more details.
   ~
   ~   You should have received a copy of the GNU General Public License
-  ~   along with QuickWeather.  If not, see <https://www.gnu.org/licenses/>.
+  ~   along with PureWeather.  If not, see <https://www.gnu.org/licenses/>.
   -->
 
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
@@ -27,7 +27,7 @@
     <!-- content description is on CurrentMainCardView -->
     <ImageView
         android:id="@+id/main_expand_icon"
-        style="@style/QuickWeather.Icon"
+        style="@style/PureWeather.Icon"
         android:layout_width="@dimen/margin_double"
         android:layout_height="@dimen/margin_double"
         android:layout_marginTop="@dimen/margin_standard"
@@ -47,7 +47,7 @@
 
         <ImageView
             android:id="@+id/current_main_icon"
-            style="@style/QuickWeather.Icon"
+            style="@style/PureWeather.Icon"
             android:layout_width="100dp"
             android:layout_height="100dp"
             android:layout_row="0"
@@ -58,7 +58,7 @@
 
         <TextView
             android:id="@+id/current_main_temperature"
-            style="@style/QuickWeather.Text.Header"
+            style="@style/PureWeather.Text.Header"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_row="0"
@@ -67,7 +67,7 @@
 
         <TextView
             android:id="@+id/main_description"
-            style="@style/QuickWeather.Text.Large"
+            style="@style/PureWeather.Text.Large"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_row="1"

@@ -1,20 +1,20 @@
 <?xml version="1.0" encoding="utf-8"?><!--
   ~   Copyright 2019 - 2023 Tyler Williamson
   ~
-  ~   This file is part of QuickWeather.
+  ~   This file is part of PureWeather.
   ~
-  ~   QuickWeather is free software: you can redistribute it and/or modify
+  ~   PureWeather is free software: you can redistribute it and/or modify
   ~   it under the terms of the GNU General Public License as published by
   ~   the Free Software Foundation, either version 3 of the License, or
   ~   (at your option) any later version.
   ~
-  ~   QuickWeather is distributed in the hope that it will be useful,
+  ~   PureWeather is distributed in the hope that it will be useful,
   ~   but WITHOUT ANY WARRANTY; without even the implied warranty of
   ~   MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
   ~   GNU General Public License for more details.
   ~
   ~   You should have received a copy of the GNU General Public License
-  ~   along with QuickWeather.  If not, see <https://www.gnu.org/licenses/>.
+  ~   along with PureWeather.  If not, see <https://www.gnu.org/licenses/>.
   -->
 <androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:id="@+id/viewpager_coordinator"
@@ -38,7 +38,7 @@
             <TableRow>
 
                 <TextView
-                    style="@style/QuickWeather.Text.Title"
+                    style="@style/PureWeather.Text.Title"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_gravity="center"
@@ -49,7 +49,7 @@
             <TableRow>
 
                 <TextView
-                    style="@style/QuickWeather.Text.RowHeader"
+                    style="@style/PureWeather.Text.RowHeader"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:text="@string/onboarding_units_text_temperature" />
@@ -61,7 +61,7 @@
 
                     <com.google.android.material.button.MaterialButton
                         android:id="@+id/button_celsius"
-                        style="@style/QuickWeather.Button"
+                        style="@style/PureWeather.Button"
                         android:layout_width="0dp"
                         android:layout_height="match_parent"
                         android:layout_marginStart="@dimen/margin_half"
@@ -70,7 +70,7 @@
 
                     <com.google.android.material.button.MaterialButton
                         android:id="@+id/button_fahrenheit"
-                        style="@style/QuickWeather.Button"
+                        style="@style/PureWeather.Button"
                         android:layout_width="0dp"
                         android:layout_height="match_parent"
                         android:layout_marginStart="@dimen/margin_half"
@@ -82,7 +82,7 @@
             <TableRow>
 
                 <TextView
-                    style="@style/QuickWeather.Text.RowHeader"
+                    style="@style/PureWeather.Text.RowHeader"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:text="@string/onboarding_units_text_wind_speed" />
@@ -94,7 +94,7 @@
 
                     <com.google.android.material.button.MaterialButton
                         android:id="@+id/button_kmh"
-                        style="@style/QuickWeather.Button"
+                        style="@style/PureWeather.Button"
                         android:layout_width="0dp"
                         android:layout_height="match_parent"
                         android:layout_marginStart="@dimen/margin_half"
@@ -103,7 +103,7 @@
 
                     <com.google.android.material.button.MaterialButton
                         android:id="@+id/button_ms"
-                        style="@style/QuickWeather.Button"
+                        style="@style/PureWeather.Button"
                         android:layout_width="0dp"
                         android:layout_height="match_parent"
                         android:layout_marginStart="@dimen/margin_half"
@@ -112,7 +112,7 @@
 
                     <com.google.android.material.button.MaterialButton
                         android:id="@+id/button_mph"
-                        style="@style/QuickWeather.Button"
+                        style="@style/PureWeather.Button"
                         android:layout_width="0dp"
                         android:layout_height="match_parent"
                         android:layout_marginStart="@dimen/margin_half"
@@ -121,7 +121,7 @@
 
                     <com.google.android.material.button.MaterialButton
                         android:id="@+id/button_kn"
-                        style="@style/QuickWeather.Button"
+                        style="@style/PureWeather.Button"
                         android:layout_width="0dp"
                         android:layout_height="match_parent"
                         android:layout_marginStart="@dimen/margin_half"
@@ -135,7 +135,7 @@
             <TableRow>
 
                 <TextView
-                    style="@style/QuickWeather.Text.Title"
+                    style="@style/PureWeather.Text.Title"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_gravity="center"
@@ -147,7 +147,7 @@
             <TableRow>
 
                 <TextView
-                    style="@style/QuickWeather.Text.RowHeader"
+                    style="@style/PureWeather.Text.RowHeader"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:text="@string/onboarding_ui_text_theme" />
@@ -159,7 +159,7 @@
 
                     <com.google.android.material.button.MaterialButton
                         android:id="@+id/button_theme_light"
-                        style="@style/QuickWeather.Button"
+                        style="@style/PureWeather.Button"
                         android:layout_width="0dp"
                         android:layout_height="match_parent"
                         android:layout_marginStart="@dimen/margin_half"
@@ -168,7 +168,7 @@
 
                     <com.google.android.material.button.MaterialButton
                         android:id="@+id/button_theme_dark"
-                        style="@style/QuickWeather.Button"
+                        style="@style/PureWeather.Button"
                         android:layout_width="0dp"
                         android:layout_height="match_parent"
                         android:layout_marginStart="@dimen/margin_half"
@@ -177,7 +177,7 @@
 
                     <com.google.android.material.button.MaterialButton
                         android:id="@+id/button_theme_auto"
-                        style="@style/QuickWeather.Button"
+                        style="@style/PureWeather.Button"
                         android:layout_width="0dp"
                         android:layout_height="match_parent"
                         android:layout_marginStart="@dimen/margin_half"
@@ -189,7 +189,7 @@
             <TableRow>
 
                 <TextView
-                    style="@style/QuickWeather.Text.Title"
+                    style="@style/PureWeather.Text.Title"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_gravity="center"
@@ -200,7 +200,7 @@
             <TableRow>
 
                 <TextView
-                    style="@style/QuickWeather.Text.RowHeader"
+                    style="@style/PureWeather.Text.RowHeader"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:text="@string/onboarding_notif_text_alerts" />
@@ -212,7 +212,7 @@
 
                     <com.google.android.material.button.MaterialButton
                         android:id="@+id/button_alert_notif_enabled"
-                        style="@style/QuickWeather.Button"
+                        style="@style/PureWeather.Button"
                         android:layout_width="0dp"
                         android:layout_height="match_parent"
                         android:layout_marginStart="@dimen/margin_half"
@@ -221,7 +221,7 @@
 
                     <com.google.android.material.button.MaterialButton
                         android:id="@+id/button_alert_notif_disabled"
-                        style="@style/QuickWeather.Button"
+                        style="@style/PureWeather.Button"
                         android:layout_width="0dp"
                         android:layout_height="match_parent"
                         android:layout_marginStart="@dimen/margin_half"
@@ -233,7 +233,7 @@
             <TableRow>
 
                 <TextView
-                    style="@style/QuickWeather.Text.RowHeader"
+                    style="@style/PureWeather.Text.RowHeader"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:text="@string/onboarding_notif_text_weather" />
@@ -245,7 +245,7 @@
 
                     <com.google.android.material.button.MaterialButton
                         android:id="@+id/button_weather_notif_enabled"
-                        style="@style/QuickWeather.Button"
+                        style="@style/PureWeather.Button"
                         android:layout_width="0dp"
                         android:layout_height="match_parent"
                         android:layout_marginStart="@dimen/margin_half"
@@ -254,7 +254,7 @@
 
                     <com.google.android.material.button.MaterialButton
                         android:id="@+id/button_weather_notif_disabled"
-                        style="@style/QuickWeather.Button"
+                        style="@style/PureWeather.Button"
                         android:layout_width="0dp"
                         android:layout_height="match_parent"
                         android:layout_marginStart="@dimen/margin_half"
@@ -266,7 +266,7 @@
             <TableRow>
 
                 <TextView
-                    style="@style/QuickWeather.Text.Title"
+                    style="@style/PureWeather.Text.Title"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_gravity="center"
@@ -277,7 +277,7 @@
             <TableRow>
 
                 <TextView
-                    style="@style/QuickWeather.Text.RowHeader"
+                    style="@style/PureWeather.Text.RowHeader"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:text="@string/onboarding_ext_gadgetbridge" />
@@ -289,7 +289,7 @@
 
                     <com.google.android.material.button.MaterialButton
                         android:id="@+id/button_gadgetbridge_enabled"
-                        style="@style/QuickWeather.Button"
+                        style="@style/PureWeather.Button"
                         android:layout_width="0dp"
                         android:layout_height="match_parent"
                         android:layout_marginStart="@dimen/margin_half"
@@ -298,7 +298,7 @@
 
                     <com.google.android.material.button.MaterialButton
                         android:id="@+id/button_gadgetbridge_disabled"
-                        style="@style/QuickWeather.Button"
+                        style="@style/PureWeather.Button"
                         android:layout_width="0dp"
                         android:layout_height="match_parent"
                         android:layout_marginStart="@dimen/margin_half"

@@ -1,25 +1,25 @@
-<img src="./fastlane/metadata/android/en-US/images/icon.png" alt="icon" height="60"> QuickWeather
+<img src="./fastlane/metadata/android/en-US/images/icon.png" alt="icon" height="60"> PureWeather
 =================
-[![GPLv3 License](https://img.shields.io/badge/License-GPL%20v3-yellow.svg)](https://opensource.org/licenses/)[![GitHub Release](https://img.shields.io/github/release/TylerWilliamson/QuickWeather.svg?style=flat)]()
+[![GPLv3 License](https://img.shields.io/badge/License-GPL%20v3-yellow.svg)](https://opensource.org/licenses/)[![GitHub Release](https://img.shields.io/github/release/TylerWilliamson/PureWeather.svg?style=flat)]()
 
  Weather at a glance! Current and forecast weather for anywhere in the world!
 
 [<img src="https://fdroid.gitlab.io/artwork/badge/get-it-on.png"
      alt="Get it on F-Droid"
-     height="80">](https://f-droid.org/packages/com.ominous.quickweather/)
+     height="80">](https://f-droid.org/packages/com.cworld.pureweather/)
 [<img src="https://play.google.com/intl/en_us/badges/images/generic/en-play-badge.png"
      alt="Get it on Google Play"
-     height="80">](https://play.google.com/store/apps/details?id=com.ominous.quickweather)
+     height="80">](https://play.google.com/store/apps/details?id=com.cworld.pureweather)
 
 Description
 ---
 <img src="./fastlane/metadata/android/en-US/images/phoneScreenshots/1.png" alt="icon" height="360"> <img src="./fastlane/metadata/android/en-US/images/phoneScreenshots/2.png" alt="icon" height="360"> <img src="./fastlane/metadata/android/en-US/images/phoneScreenshots/3.png" alt="icon" height="360"> <img src="./fastlane/metadata/android/en-US/images/phoneScreenshots/4.png" alt="icon" height="360"> <img src="./fastlane/metadata/android/en-US/images/phoneScreenshots/5.png" alt="icon" height="360"> <img src="./fastlane/metadata/android/en-US/images/phoneScreenshots/6.png" alt="icon" height="360">
 
-QuickWeather is really fast. Just open the app and see the weather right now. There's no loading screen and no wait time. The weather is delivered to you with no extra junk, just clean and clear information.
+PureWeather is really fast. Just open the app and see the weather right now. There's no loading screen and no wait time. The weather is delivered to you with no extra junk, just clean and clear information.
 
-You can add as many locations to the side drawer as you want to have their weather a single tap away. QuickWeather can even determine your current location if you allow it (location information is not collected).
+You can add as many locations to the side drawer as you want to have their weather a single tap away. PureWeather can even determine your current location if you allow it (location information is not collected).
 
-QuickWeather is Always Free (No IAPs or Ads) and Always Open Source
+PureWeather is Always Free (No IAPs or Ads) and Always Open Source
 
 Here's what you get
 
@@ -33,9 +33,9 @@ Here's what you get
 * Daily Forecast Weather and High and Low Temperature (7 days)
 * Daily UV Index
 
-QuickWeather is powered by <a href="https://openweathermap.org/">OpenWeatherMap.org</a> or <a href="https://open-meteo.com/">Open-Meteo</a>. 
-* If using OpenWeatherMap, QuickWeather requires an active API Key with the OneCall subscription to function. If you do not have one, you can sign up for a free API key <a href="https://home.openweathermap.org/subscriptions/unauth_subscribe/onecall_30/base">here</a>.
-* If using Open-Meteo, QuickWeather does not require an API Key.
+PureWeather is powered by <a href="https://openweathermap.org/">OpenWeatherMap.org</a> or <a href="https://open-meteo.com/">Open-Meteo</a>. 
+* If using OpenWeatherMap, PureWeather requires an active API Key with the OneCall subscription to function. If you do not have one, you can sign up for a free API key <a href="https://home.openweathermap.org/subscriptions/unauth_subscribe/onecall_30/base">here</a>.
+* If using Open-Meteo, PureWeather does not require an API Key.
 
 
 Required Permissions
@@ -48,25 +48,25 @@ Optional Permissions
 
 Translation
 ---
-QuickWeather uses [Weblate](https://weblate.org/) for translations. If you would like to help translate QuickWeather into a language that you know, please contribute to the [Weblate project](https://hosted.weblate.org/projects/quickweather/).
+PureWeather uses [Weblate](https://weblate.org/) for translations. If you would like to help translate PureWeather into a language that you know, please contribute to the [Weblate project](https://hosted.weblate.org/projects/pureweather/).
 
 License
 ---
 ```
     Copyright 2019 - 2023 Tyler Williamson
 
-    This file is part of QuickWeather.
+    This file is part of PureWeather.
 
-    QuickWeather is free software: you can redistribute it and/or modify
+    PureWeather is free software: you can redistribute it and/or modify
     it under the terms of the GNU General Public License as published by
     the Free Software Foundation, either version 3 of the License, or
     (at your option) any later version.
 
-    QuickWeather is distributed in the hope that it will be useful,
+    PureWeather is distributed in the hope that it will be useful,
     but WITHOUT ANY WARRANTY; without even the implied warranty of
     MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
     GNU General Public License for more details.
 
     You should have received a copy of the GNU General Public License
-    along with QuickWeather.  If not, see <https://www.gnu.org/licenses/>.
+    along with PureWeather.  If not, see <https://www.gnu.org/licenses/>.
 ```

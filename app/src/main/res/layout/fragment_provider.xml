@@ -1,20 +1,20 @@
 <?xml version="1.0" encoding="utf-8"?><!--
   ~   Copyright 2019 - 2023 Tyler Williamson
   ~
-  ~   This file is part of QuickWeather.
+  ~   This file is part of PureWeather.
   ~
-  ~   QuickWeather is free software: you can redistribute it and/or modify
+  ~   PureWeather is free software: you can redistribute it and/or modify
   ~   it under the terms of the GNU General Public License as published by
   ~   the Free Software Foundation, either version 3 of the License, or
   ~   (at your option) any later version.
   ~
-  ~   QuickWeather is distributed in the hope that it will be useful,
+  ~   PureWeather is distributed in the hope that it will be useful,
   ~   but WITHOUT ANY WARRANTY; without even the implied warranty of
   ~   MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
   ~   GNU General Public License for more details.
   ~
   ~   You should have received a copy of the GNU General Public License
-  ~   along with QuickWeather.  If not, see <https://www.gnu.org/licenses/>.
+  ~   along with PureWeather.  If not, see <https://www.gnu.org/licenses/>.
   -->
 
 <androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
@@ -32,7 +32,7 @@
 
         <TextView
             android:id="@+id/provider_title"
-            style="@style/QuickWeather.Text.Title"
+            style="@style/PureWeather.Text.Title"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
@@ -87,7 +87,7 @@
                     app:layout_constraintTop_toTopOf="parent">
 
                     <com.ominous.tylerutils.view.LinkedTextView
-                        style="@style/QuickWeather.Text"
+                        style="@style/PureWeather.Text"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_gravity="center"
@@ -97,28 +97,28 @@
 
                     <com.google.android.material.textfield.TextInputLayout
                         android:id="@+id/onboarding_owm_apikey_edittext_layout"
-                        style="@style/QuickWeather.TextInput.Layout"
+                        style="@style/PureWeather.TextInput.Layout"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:hint="@string/onboarding_provider_owm_edittext_hint">
 
                         <com.google.android.material.textfield.TextInputEditText
                             android:id="@+id/onboarding_owm_apikey_edittext"
-                            style="@style/QuickWeather.TextInput"
+                            style="@style/PureWeather.TextInput"
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content" />
                     </com.google.android.material.textfield.TextInputLayout>
 
                     <com.google.android.material.button.MaterialButton
                         android:id="@+id/test_owm_api_key"
-                        style="@style/QuickWeather.Button"
+                        style="@style/PureWeather.Button"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:text="@string/onboarding_provider_button_testapi" />
 
                     <com.google.android.material.progressindicator.LinearProgressIndicator
                         android:id="@+id/onboarding_owm_apikey_progress"
-                        style="@style/QuickWeather.ProgressIndicator"
+                        style="@style/PureWeather.ProgressIndicator"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_marginTop="@dimen/margin_half" />
@@ -175,7 +175,7 @@
                     app:layout_constraintTop_toTopOf="parent">
 
                     <com.ominous.tylerutils.view.LinkedTextView
-                        style="@style/QuickWeather.Text"
+                        style="@style/PureWeather.Text"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_gravity="center"
@@ -184,7 +184,7 @@
                         android:textColor="@color/text_primary_emphasis" />
 
                     <com.ominous.tylerutils.view.LinkedTextView
-                        style="@style/QuickWeather.Text"
+                        style="@style/PureWeather.Text"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_gravity="center"
@@ -194,42 +194,42 @@
 
                     <com.google.android.material.textfield.TextInputLayout
                         android:id="@+id/onboarding_openmeteo_instance_edittext_layout"
-                        style="@style/QuickWeather.TextInput.Layout"
+                        style="@style/PureWeather.TextInput.Layout"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:hint="@string/onboarding_provider_openmeteo_instance_hint">
 
                         <com.google.android.material.textfield.TextInputEditText
                             android:id="@+id/onboarding_openmeteo_instance_edittext"
-                            style="@style/QuickWeather.TextInput"
+                            style="@style/PureWeather.TextInput"
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content" />
                     </com.google.android.material.textfield.TextInputLayout>
 
                     <com.google.android.material.textfield.TextInputLayout
                         android:id="@+id/onboarding_openmeteo_apikey_edittext_layout"
-                        style="@style/QuickWeather.TextInput.Layout"
+                        style="@style/PureWeather.TextInput.Layout"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:hint="@string/onboarding_provider_openmeteo_apikey_hint">
 
                         <com.google.android.material.textfield.TextInputEditText
                             android:id="@+id/onboarding_openmeteo_apikey_edittext"
-                            style="@style/QuickWeather.TextInput"
+                            style="@style/PureWeather.TextInput"
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content" />
                     </com.google.android.material.textfield.TextInputLayout>
 
                     <com.google.android.material.button.MaterialButton
                         android:id="@+id/test_openmeteo_connection"
-                        style="@style/QuickWeather.Button"
+                        style="@style/PureWeather.Button"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:text="@string/onboarding_provider_button_testconnection" />
 
                     <com.google.android.material.progressindicator.LinearProgressIndicator
                         android:id="@+id/onboarding_openmeteo_apikey_progress"
-                        style="@style/QuickWeather.ProgressIndicator"
+                        style="@style/PureWeather.ProgressIndicator"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_marginTop="@dimen/margin_half" />

@@ -2,40 +2,39 @@
 <!--
   ~   Copyright 2019 - 2023 Tyler Williamson
   ~
-  ~   This file is part of QuickWeather.
+  ~   This file is part of PureWeather.
   ~
-  ~   QuickWeather is free software: you can redistribute it and/or modify
+  ~   PureWeather is free software: you can redistribute it and/or modify
   ~   it under the terms of the GNU General Public License as published by
   ~   the Free Software Foundation, either version 3 of the License, or
   ~   (at your option) any later version.
   ~
-  ~   QuickWeather is distributed in the hope that it will be useful,
+  ~   PureWeather is distributed in the hope that it will be useful,
   ~   but WITHOUT ANY WARRANTY; without even the implied warranty of
   ~   MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
   ~   GNU General Public License for more details.
   ~
   ~   You should have received a copy of the GNU General Public License
-  ~   along with QuickWeather.  If not, see <https://www.gnu.org/licenses/>.
+  ~   along with PureWeather.  If not, see <https://www.gnu.org/licenses/>.
   --><resources xmlns:tools="http://schemas.android.com/tools">
     <string name="onboarding_ui_button_auto">Авто</string>
     <string name="format_separator">", "</string>
     <string name="format_precipitation_end" tools:ignore="PluralsCandidate">%1$s закончится через %2$d мин</string>
     <string name="format_dewpoint">%s Точка росы</string>
     <string name="weather_precip_mix">Смешанный</string>
-    <string name="onboarding_welcome_text_thanks_paragraph">QuickWeather возможен благодаря:
+    <string name="onboarding_welcome_text_thanks_paragraph">PureWeather возможен благодаря:
 \n • <a href="https://openweathermap.org/">OpenWeatherMap</a> и <a href="https://open-meteo.com/">Open-Meteo</a>
 \n • <a href="https://github.com/amitjakhu/dripicons-weather">Dripicons - Weather</a> by Amit Jakhu
 \n • <a href="https://www.rainviewer.com/">RainViewer</a>
 \n • <a href="https://github.com/woxblom/DragListView">ListDragView</a> (<a href="https://github.com/woxblom/DragListView/blob/master/LICENSE">лицензия</a>) by Magnus Woxblom</string>
-    <string name="dialog_location_denied">QuickWeather требуется разрешения \"Местоположение\", чтобы определить ваше текущее местоположение и предоставить погоду</string>
+    <string name="dialog_location_denied">PureWeather требуется разрешения \"Местоположение\", чтобы определить ваше текущее местоположение и предоставить погоду</string>
     <string name="dialog_button_close">Закрыть</string>
     <string name="error_connecting_api">Ошибка подключения к API</string>
     <string name="onboarding_units_button_fahrenheit">Фаренгейта</string>
     <string name="onboarding_location_button_clear_desc">Очистить</string>
     <string name="onboarding_notif_text_title">Уведомления</string>
-    <string name="text_privacy_policy"><a href="https://tylerwilliamson.github.io/QuickWeather/PrivacyPolicy">Политика конфиденциальности</a></string>
+    <string name="text_privacy_policy"><a href="https://tylerwilliamson.github.io/PureWeather/PrivacyPolicy">Политика конфиденциальности</a></string>
     <string name="text_invalid_api_key">Неверный API ключ</string>
-    <string name="text_report_a_bug">Сообщить об ошибке</string>
     <string name="onboarding_location_text_title">Местоположения</string>
     <string name="icon_weather_desc">Текущая погода</string>
     <string name="onboarding_ext_text_title">Расширения</string>
@@ -55,8 +54,8 @@
     <string name="channel_alerts_description">Предупреждения о неблагоприятных погодных условиях от вашего правительства</string>
     <string name="channel_persistent_name">Текущая погода</string>
     <string name="weather_desc_breezy">Ветренно</string>
-    <string name="onboarding_welcome_text_policies_paragraph">• QuickWeather это бесплатное ПО под лицензией <a href="https://www.gnu.org/licenses/">GNU General Public License</a>
-\n • Посмотрите <a href="https://tylerwilliamson.github.io/QuickWeather/PrivacyPolicy">Политика конфиденциальности</a></string>
+    <string name="onboarding_welcome_text_policies_paragraph">• PureWeather это бесплатное ПО под лицензией <a href="https://www.gnu.org/licenses/">GNU General Public License</a>
+\n • Посмотрите <a href="https://tylerwilliamson.github.io/PureWeather/PrivacyPolicy">Политика конфиденциальности</a></string>
     <string name="format_feelslike">Чувствуется как %s</string>
     <string name="text_invalid_api_key_or_instance">Неверный API ключ или экземпляр</string>
     <string name="onboarding_location_button_current_location">Текущее местоположение</string>
@@ -71,7 +70,7 @@
     <string name="dialog_location_disclosure_title">Раскрытие местоположения</string>
     <string name="error_unexpected_api_result">Неожиданный результат работы API</string>
     <string name="onboarding_provider_openmeteo_instance_hint">Open-Meteo Instance (не обязательно)</string>
-    <string name="onboarding_welcome_text_paragraph">Спасибо за установку моего приложения! QuickWeather бесплатное и Open Source приложение и доступно только в <a href="https://play.google.com/store/apps/details?id=com.ominous.quickweather">Google Play</a>, <a href="https://f-droid.org/en/packages/com.ominous.quickweather/">F-Droid</a>, и моем <a href="https://github.com/TylerWilliamson/QuickWeather/releases">GitHub</a>. если вы установили это приложение из другого источника, пожалуйста удалите его и установите из Play Store, F-Droid, или GitHub версию.</string>
+    <string name="onboarding_welcome_text_paragraph">Спасибо за установку моего приложения! PureWeather бесплатное и Open Source приложение и доступно только в <a href="https://play.google.com/store/apps/details?id=com.cworld.pureweather">Google Play</a>, <a href="https://f-droid.org/en/packages/com.cworld.pureweather/">F-Droid</a>, и моем <a href="https://github.com/TylerWilliamson/PureWeather/releases">GitHub</a>. если вы установили это приложение из другого источника, пожалуйста удалите его и установите из Play Store, F-Droid, или GitHub версию.</string>
     <string name="weather_desc_dry">Сухо</string>
     <string name="channel_errors_description">Ошибки, возникшие при получении погоды</string>
     <string name="onboarding_ui_button_light">Светлая</string>
@@ -83,7 +82,7 @@
     <string name="error_obtaining_weather">Ошибка получения информации о погоде</string>
     <string name="text_error_getting_release">ошибка при поиске новой версии</string>
     <string name="onboarding_location_drag_anchor_desc">Drag Anchor</string>
-    <string name="dialog_location_disclosure">QuickWeather собирает данные о местоположении, чтобы определить ваше текущее местоположение. Эти данные не покидают ваше устройство. Если вы также включите функцию постоянного уведомления о погоде или оповещения о погоде, QuickWeather будет получать данные о вашем местоположении в фоновом режиме, даже когда приложение закрыто или не используется.</string>
+    <string name="dialog_location_disclosure">PureWeather собирает данные о местоположении, чтобы определить ваше текущее местоположение. Эти данные не покидают ваше устройство. Если вы также включите функцию постоянного уведомления о погоде или оповещения о погоде, PureWeather будет получать данные о вашем местоположении в фоновом режиме, даже когда приложение закрыто или не используется.</string>
     <string name="onboarding_units_text_wind_speed">Скорость ветра</string>
     <string name="onboarding_provider_title_click_action">Выберите провайдера погоды</string>
     <string name="icon_alert_desc">Предупреждение</string>
@@ -96,7 +95,7 @@
     <string name="onboarding_provider_owm_edittext_hint">OpenWeatherMap API ключ</string>
     <string name="text_error">Ошибка</string>
     <string name="format_forecast_title">%1$s - %2$s</string>
-    <string name="text_invalid_subscription">QuickWeather требует наличия подписки \"OneCall\"</string>
+    <string name="text_invalid_subscription">PureWeather требует наличия подписки \"OneCall\"</string>
     <string name="snackbar_background_location_notifications">Включите фоновое определение местоположения, для получения уведомлений текущего местоположения</string>
     <string name="text_error_new_version">Ошибка при проверке новой версии</string>
     <string name="text_whats_new">Что нового\?</string>
@@ -120,7 +119,7 @@
     <string name="onboarding_provider_openmeteo_text_warning">Внимание: Open-Meteo в настоящее время не оповещает о погоде. Пожалуйста, будьте осторожны.</string>
     <string name="dialog_background_location_title">Включить фоновый поиск местоположения</string>
     <string name="dialog_button_manual">Руководство</string>
-    <string name="snackbar_notification_permission">Начиная с Android 13, QuickWeather необходимо разрешение для показа уведомлений</string>
+    <string name="snackbar_notification_permission">Начиная с Android 13, PureWeather необходимо разрешение для показа уведомлений</string>
     <string name="text_decline">Отклонить</string>
     <string name="onboarding_ui_button_dark">Темная</string>
     <string name="format_precipitation_start" tools:ignore="PluralsCandidate">%1$s через %2$d мин</string>
@@ -151,7 +150,7 @@
     <string name="advanced_language_text">Язык</string>
     <string name="dialog_background_location">Чтобы включить фоновый доступ к местоположению, выполните следующие действия:
 \n
-\n1. Откройте настройки QuickWeather
+\n1. Откройте настройки PureWeather
 \n2. Перейдите к пункту \"%1$s\"
 \n3. Выберите \"%2$s\"
 \n4. Далее выберите \"%3$s\"
@@ -185,7 +184,7 @@
     <string name="openmeteo_depositingrimefog">Изморозь</string>
     <string name="error_radar_image">Ошибка при загрузке изображений радаров</string>
     <string name="onboarding_location_map_desc">Карта</string>
-    <string name="onboarding_provider_openmeteo_text_welcome"><a href="https://open-meteo.com/">Open-Meteo</a> это бесплатный и открытый провайдер погоды с возможностью самостоятельного хостинга. Open-Meteo не требует ключа API, но <a href="https://open-meteo.com/en/pricing">Open-Meteo подписчики</a> могут использовать их APIключ, если они хотят поддержать Open-Meteo. По умолчанию, QuickWeather будет использовать основной Open-Meteo API, однако пользователи могут выбрать какой Open-Meteo инстанс использовать в дальнейшем. Смотрите <a href="https://github.com/open-meteo/open-meteo">OpenMeteo GitHub repository</a>на счет хостинга собственного инстанса.</string>
+    <string name="onboarding_provider_openmeteo_text_welcome"><a href="https://open-meteo.com/">Open-Meteo</a> это бесплатный и открытый провайдер погоды с возможностью самостоятельного хостинга. Open-Meteo не требует ключа API, но <a href="https://open-meteo.com/en/pricing">Open-Meteo подписчики</a> могут использовать их APIключ, если они хотят поддержать Open-Meteo. По умолчанию, PureWeather будет использовать основной Open-Meteo API, однако пользователи могут выбрать какой Open-Meteo инстанс использовать в дальнейшем. Смотрите <a href="https://github.com/open-meteo/open-meteo">OpenMeteo GitHub repository</a>на счет хостинга собственного инстанса.</string>
     <string name="dialog_edit_location_title">Редкатировать местоположение</string>
     <string name="format_temperature_fahrenheit">%1$s°F</string>
     <string name="openmeteo_thunderstorm">Гроза</string>
@@ -205,7 +204,7 @@
     <string name="format_precipitation_in_accessibility">%1$.2f дюймов %2$s</string>
     <string name="dialog_map_title">Выберите местоположение</string>
     <string name="openmeteo_thunderstormheavyhail">Гроза с сильным градом</string>
-    <string name="dialog_translation_text">QuickWeather использует &lt;a href=https://weblate.org/&gt;Weblate&lt;/a&gt; для перевода. Если вы ходите помочь с переводом QuickWeather на другие языки, что вы знаете, пожалуйста сделайте это &lt;a href=https://hosted.weblate.org/projects/quickweather/&gt;Weblate project&lt;/a&gt;.</string>
+    <string name="dialog_translation_text">PureWeather использует &lt;a href=https://weblate.org/&gt;Weblate&lt;/a&gt; для перевода. Если вы ходите помочь с переводом PureWeather на другие языки, что вы знаете, пожалуйста сделайте это &lt;a href=https://hosted.weblate.org/projects/pureweather/&gt;Weblate project&lt;/a&gt;.</string>
     <string name="dialog_edit_location_latitude">Широта</string>
     <string name="openmeteo_overcast">Пасмурно</string>
     <string name="dialog_search_location_title">Поиск по местоположению</string>

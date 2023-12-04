@@ -2,20 +2,20 @@
 <!--
   ~   Copyright 2019 - 2023 Tyler Williamson
   ~
-  ~   This file is part of QuickWeather.
+  ~   This file is part of PureWeather.
   ~
-  ~   QuickWeather is free software: you can redistribute it and/or modify
+  ~   PureWeather is free software: you can redistribute it and/or modify
   ~   it under the terms of the GNU General Public License as published by
   ~   the Free Software Foundation, either version 3 of the License, or
   ~   (at your option) any later version.
   ~
-  ~   QuickWeather is distributed in the hope that it will be useful,
+  ~   PureWeather is distributed in the hope that it will be useful,
   ~   but WITHOUT ANY WARRANTY; without even the implied warranty of
   ~   MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
   ~   GNU General Public License for more details.
   ~
   ~   You should have received a copy of the GNU General Public License
-  ~   along with QuickWeather.  If not, see <https://www.gnu.org/licenses/>.
+  ~   along with PureWeather.  If not, see <https://www.gnu.org/licenses/>.
   -->
 
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
@@ -41,7 +41,7 @@
 
     <com.google.android.material.button.MaterialButton
         android:id="@+id/button_expand"
-        style="@style/QuickWeather.OutlinedButton"
+        style="@style/PureWeather.OutlinedButton"
         android:layout_width="@dimen/margin_double"
         android:layout_height="@dimen/margin_double"
         android:layout_marginTop="@dimen/margin_half"
@@ -54,7 +54,7 @@
     <!-- only this button needs the iconSize = 20dp -->
     <com.google.android.material.button.MaterialButton
         android:id="@+id/button_compasscenter"
-        style="@style/QuickWeather.OutlinedButton"
+        style="@style/PureWeather.OutlinedButton"
         android:layout_width="@dimen/margin_double"
         android:layout_height="@dimen/margin_double"
         android:layout_marginTop="@dimen/margin_quarter"
@@ -77,7 +77,7 @@
 
         <com.google.android.material.button.MaterialButton
             android:id="@+id/button_compassnorth"
-            style="@style/QuickWeather.OutlinedButton"
+            style="@style/PureWeather.OutlinedButton"
             android:layout_width="match_parent"
             android:layout_height="match_parent" />
 
@@ -93,7 +93,7 @@
 
     <com.google.android.material.button.MaterialButton
         android:id="@+id/button_zoomin"
-        style="@style/QuickWeather.OutlinedButton"
+        style="@style/PureWeather.OutlinedButton"
         android:layout_width="@dimen/margin_double"
         android:layout_height="@dimen/margin_double"
         android:layout_marginStart="@dimen/margin_half"
@@ -104,7 +104,7 @@
 
     <com.google.android.material.button.MaterialButton
         android:id="@+id/button_zoomout"
-        style="@style/QuickWeather.OutlinedButton"
+        style="@style/PureWeather.OutlinedButton"
         android:layout_width="@dimen/margin_double"
         android:layout_height="@dimen/margin_double"
         android:layout_marginStart="@dimen/margin_half"
@@ -115,7 +115,7 @@
 
     <com.google.android.material.button.MaterialButton
         android:id="@+id/button_playpause"
-        style="@style/QuickWeather.OutlinedButton"
+        style="@style/PureWeather.OutlinedButton"
         android:layout_width="@dimen/margin_double"
         android:layout_height="@dimen/margin_double"
         android:layout_marginEnd="@dimen/margin_half"
@@ -127,7 +127,7 @@
 
     <com.google.android.material.slider.RangeSlider
         android:id="@+id/radar_slider"
-        style="@style/QuickWeather.Slider"
+        style="@style/PureWeather.Slider"
         android:visibility="gone"
         android:layout_width="200dp"
         android:layout_height="@dimen/margin_double"

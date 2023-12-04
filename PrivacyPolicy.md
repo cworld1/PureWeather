@@ -1,20 +1,20 @@
 # Privacy Policy
 
-Tyler Williamson built the QuickWeather app as a Free and Open Source application. This SERVICE is provided at no cost and is intended for use as is.
+Tyler Williamson built the PureWeather app as a Free and Open Source application. This SERVICE is provided at no cost and is intended for use as is.
 
 This page is used to inform visitors regarding the policies with the collection, use, and disclosure of Personal Information if anyone decided to use this Service.
 
 If you choose to use this Service, then you agree to the collection and use of information in relation to this policy. The Personal Information that I collect is used for providing and improving the Service. I will not use or share your information with anyone except as described in this Privacy Policy. 
 
-# Personal Information Collected By QuickWeather
+# Personal Information Collected By PureWeather
 
 ## Location
 	
-If you use the "Current Location" feature, QuickWeather will collect location data in order to determine your current location. This data is not stored and does not leave your phone. If you also enable the persistent weather notification or weather alerts, QuickWeather will obtain your location in the background even when the app is closed or not in use.
+If you use the "Current Location" feature, PureWeather will collect location data in order to determine your current location. This data is not stored and does not leave your phone. If you also enable the persistent weather notification or weather alerts, PureWeather will obtain your location in the background even when the app is closed or not in use.
 
 ## Application Logs
 	
-In the event of an app crash, certain log information is collected by Google Play Services and made available to me. This information includes the Android version and model of the device that installed QuickWeather.
+In the event of an app crash, certain log information is collected by Google Play Services and made available to me. This information includes the Android version and model of the device that installed PureWeather.
 
 # Privacy Policies of Third Parties
 
