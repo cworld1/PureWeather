@@ -2,20 +2,20 @@
 <!--
   ~ Copyright 2019 - 2023 Tyler Williamson
   ~
-  ~ This file is part of QuickWeather.
+  ~ This file is part of PureWeather.
   ~
-  ~ QuickWeather is free software: you can redistribute it and/or modify
+  ~ PureWeather is free software: you can redistribute it and/or modify
   ~ it under the terms of the GNU General Public License as published by
   ~ the Free Software Foundation, either version 3 of the License, or
   ~ (at your option) any later version.
   ~
-  ~ QuickWeather is distributed in the hope that it will be useful,
+  ~ PureWeather is distributed in the hope that it will be useful,
   ~ but WITHOUT ANY WARRANTY; without even the implied warranty of
   ~ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
   ~ GNU General Public License for more details.
   ~
   ~ You should have received a copy of the GNU General Public License
-  ~ along with QuickWeather.  If not, see <https://www.gnu.org/licenses/>.
+  ~ along with PureWeather.  If not, see <https://www.gnu.org/licenses/>.
   --><resources xmlns:tools="http://schemas.android.com/tools">
     <string name="format_uvi">UV指数 %.1f</string>
     <string name="format_visibility">能见度 %.1f km</string>
@@ -26,9 +26,9 @@
     <string name="format_alert">%1$s 时激活</string>
     <string name="format_precipitation_chance">%1$s chance of %2$s</string>
     <string name="onboarding_welcome_text_title">欢迎</string>
-    <string name="onboarding_welcome_text_paragraph">感谢安装此应用！QuickWeather是一款自由、开源应用，仅发布在 <a href="https://play.google.com/store/apps/details?id=com.ominous.quickweather">Google Play</a>、<a href="https://f-droid.org/en/packages/com.ominous.quickweather/">F-Droid</a>和我的<a href="https://github.com/TylerWilliamson/QuickWeather/releases">GitHub</a>页面。如您从其他来源安装了此应用，请卸载，然后安装Google Play商店、F-Droid或GitHub上的版本。</string>
+    <string name="onboarding_welcome_text_paragraph">感谢安装此应用！PureWeather是一款自由、开源应用，仅发布在 <a href="https://play.google.com/store/apps/details?id=com.cworld.pureweather">Google Play</a>、<a href="https://f-droid.org/en/packages/com.cworld.pureweather/">F-Droid</a>和我的<a href="https://github.com/TylerWilliamson/PureWeather/releases">GitHub</a>页面。如您从其他来源安装了此应用，请卸载，然后安装Google Play商店、F-Droid或GitHub上的版本。</string>
     <string name="onboarding_welcome_text_thanks">特别致谢</string>
-    <string name="onboarding_welcome_text_thanks_paragraph">QuickWeather的诞生，有赖于：
+    <string name="onboarding_welcome_text_thanks_paragraph">PureWeather的诞生，有赖于：
 \n • <a href="https://openweathermap.org/">OpenWeatherMap</a> + <a href="https://open-meteo.com/">Open-Meteo</a>
 \n • <a href="https://github.com/amitjakhu/dripicons-weather">Dripicons - Weather</a>，作者：Amit Jakhu
 \n • <a href="https://www.rainviewer.com/">RainViewer</a>
@@ -57,23 +57,23 @@
     <string name="text_no_location">未选定位置</string>
     <string name="text_today">今天</string>
     <string name="text_invalid_api_key">API Key无效</string>
-    <string name="text_invalid_subscription">QuickWeather需要“OneCall”订阅</string>
+    <string name="text_invalid_subscription">PureWeather需要“OneCall”订阅</string>
     <string name="text_required">必需</string>
-    <string name="text_privacy_policy"><a href="https://tylerwilliamson.github.io/QuickWeather/PrivacyPolicy">隐私政策</a></string>
+    <string name="text_privacy_policy"><a href="https://tylerwilliamson.github.io/PureWeather/PrivacyPolicy">隐私政策</a></string>
     <string name="text_accept">接受</string>
     <string name="text_decline">拒绝</string>
     <string name="text_unknown">未知</string>
     <string name="text_open">打开</string>
     <string name="text_check_for_updates">检查更新</string>
     <string name="text_whats_new">有什么更新？</string>
-    <string name="text_report_a_bug">报告Bug</string>
+    <string name="text_visit_project">访问项目</string>
     <string name="text_new_version_available">有新版本！</string>
     <string name="text_no_new_version">已是最新版本</string>
     <string name="text_error_new_version">检查更新时出错</string>
     <string name="text_error_getting_release">查找发布时出错</string>
     <string name="onboarding_welcome_text_policies">政策</string>
-    <string name="onboarding_welcome_text_policies_paragraph">• QuickWeather是一款自由软件，在<a href="https://www.gnu.org/licenses/">GNU通用公共许可协议</a>下发布。
-\n • 查看<a href="https://tylerwilliamson.github.io/QuickWeather/PrivacyPolicy">隐私政策</a></string>
+    <string name="onboarding_welcome_text_policies_paragraph">• PureWeather是一款自由软件，在<a href="https://www.gnu.org/licenses/">GNU通用公共许可协议</a>下发布。
+\n • 查看<a href="https://tylerwilliamson.github.io/PureWeather/PrivacyPolicy">隐私政策</a></string>
     <string name="onboarding_location_text_title">位置</string>
     <string name="onboarding_location_drag_anchor_desc">拖拽点</string>
     <string name="onboarding_units_text_title">单位</string>
@@ -108,7 +108,7 @@
     <string name="snackbar_background_location_notifications">对于我的位置，可能后台定位并接收提醒</string>
     <string name="snackbar_background_location_gadgetbridge">对于我的位置，可能后台定位并更新Gadgetbridge</string>
     <string name="snackbar_obtaining_location">获取当前位置…</string>
-    <string name="snackbar_notification_permission">从Android 13开始，QuickWeather需要通知权限来显示提醒</string>
+    <string name="snackbar_notification_permission">从Android 13开始，PureWeather需要通知权限来显示提醒</string>
     <string name="weather_desc_dry">干燥</string>
     <string name="weather_desc_strongwinds">大风</string>
     <string name="weather_desc_breezy">微风</string>
@@ -126,7 +126,7 @@
     <string name="openmeteo_lightfreezingdrizzle">小冻细雨</string>
     <string name="openmeteo_moderatedrizzle">中细雨</string>
     <string name="openmeteo_snowgrains">霰雪</string>
-    <string name="dialog_location_denied">QuickWeather 需要位置权限才能找到您当前的位置并提供天气信息</string>
+    <string name="dialog_location_denied">PureWeather 需要位置权限才能找到您当前的位置并提供天气信息</string>
     <string name="dialog_button_close">关闭</string>
     <string name="dialog_translation_title">帮助翻译</string>
     <string name="radar_quality_low">低</string>
@@ -141,7 +141,7 @@
     <string name="advanced_language_text">语言</string>
     <string name="dialog_background_location">要启用后台位置共享，请：
 \n
-\n1. 打开 QuickWeather 的设置
+\n1. 打开 PureWeather 的设置
 \n2. 跳转至“%1$s”
 \n3. 选择“%2$s”
 \n4. 选择“%3$s”
@@ -176,7 +176,7 @@
     <string name="dialog_location_disclosure_title">分享位置</string>
     <string name="onboarding_provider_openmeteo_instance_hint">Open-Meteo 实例（可选）</string>
     <string name="onboarding_location_map_desc">地图</string>
-    <string name="onboarding_provider_openmeteo_text_welcome"><a href="https://open-meteo.com">Open-Meteo</a> 是一个免费开源的自托管天气提供商。 Open-Meteo 不需要 API 密钥，但<a href="https://open-meteo.com/enpricing">Open-Meteo 订阅者</a>如果希望支持 Open-Meteo，可以使用其 API 密钥。默认情况下，QuickWeather 将使用主要 Open-Meteo API，但用户可以在下面选择要使用的 Open-Meteo 实例。有关托管您自己的实例的更多信息，请参阅 <a href="https://github.com/open-meteo/open-meteo">OpenMeteo GitHub 存储库</a>。</string>
+    <string name="onboarding_provider_openmeteo_text_welcome"><a href="https://open-meteo.com">Open-Meteo</a> 是一个免费开源的自托管天气提供商。 Open-Meteo 不需要 API 密钥，但<a href="https://open-meteo.com/enpricing">Open-Meteo 订阅者</a>如果希望支持 Open-Meteo，可以使用其 API 密钥。默认情况下，PureWeather 将使用主要 Open-Meteo API，但用户可以在下面选择要使用的 Open-Meteo 实例。有关托管您自己的实例的更多信息，请参阅 <a href="https://github.com/open-meteo/open-meteo">OpenMeteo GitHub 存储库</a>。</string>
     <string name="dialog_edit_location_title">编辑位置</string>
     <string name="onboarding_provider_openmeteo_apikey_hint">Open-Meteo API 密钥（可选）</string>
     <string name="format_temperature_fahrenheit">%1$s°F</string>
@@ -186,7 +186,7 @@
     <string name="error_no_results">没有结果</string>
     <string name="format_speed_mph">%1$.1f mph %2$s</string>
     <string name="openmeteo_clearsky">晴</string>
-    <string name="dialog_location_disclosure">QuickWeather 收集位置数据以确定您的当前位置。这些数据不会离开您的手机。如果您还启用了持续天气通知或天气警报，即使应用程序关闭或未使用，QuickWeather 也会在后台获取您的位置。</string>
+    <string name="dialog_location_disclosure">PureWeather 收集位置数据以确定您的当前位置。这些数据不会离开您的手机。如果您还启用了持续天气通知或天气警报，即使应用程序关闭或未使用，PureWeather 也会在后台获取您的位置。</string>
     <string name="drawer_close_desc">关闭菜单</string>
     <string name="onboarding_provider_title_click_action">选择天气数据提供者</string>
     <string name="format_precipitation_in">%2$s中的%1$.2f</string>
@@ -198,7 +198,7 @@
     <string name="format_precipitation_in_accessibility">%1$.2f英尺%2$s</string>
     <string name="dialog_map_title">选择一个位置</string>
     <string name="openmeteo_thunderstormheavyhail">雷暴伴大冰雹</string>
-    <string name="dialog_translation_text">QuickWeather 使用 &lt;a href=https://weblate.org&gt;Weblate&lt;/a&gt; 进行翻译。如果您想帮助将 QuickWeather 翻译成您知道的语言，请为 &lt;a href=https://hosted.weblate.org/projects/quickweather&gt;Weblate 项目&lt;/a&gt;做出贡献。</string>
+    <string name="dialog_translation_text">PureWeather 使用 &lt;a href=https://weblate.org&gt;Weblate&lt;/a&gt; 进行翻译。如果您想帮助将 PureWeather 翻译成您知道的语言，请为 &lt;a href=https://hosted.weblate.org/projects/pureweather&gt;Weblate 项目&lt;/a&gt;做出贡献。</string>
     <string name="text_error">发生错误</string>
     <string name="dialog_edit_location_latitude">纬度</string>
     <string name="openmeteo_overcast">阴</string>

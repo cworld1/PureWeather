@@ -2,20 +2,20 @@
 <!--
   ~ Copyright 2019 - 2023 Tyler Williamson
   ~
-  ~ This file is part of QuickWeather.
+  ~ This file is part of PureWeather.
   ~
-  ~ QuickWeather is free software: you can redistribute it and/or modify
+  ~ PureWeather is free software: you can redistribute it and/or modify
   ~ it under the terms of the GNU General Public License as published by
   ~ the Free Software Foundation, either version 3 of the License, or
   ~ (at your option) any later version.
   ~
-  ~ QuickWeather is distributed in the hope that it will be useful,
+  ~ PureWeather is distributed in the hope that it will be useful,
   ~ but WITHOUT ANY WARRANTY; without even the implied warranty of
   ~ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
   ~ GNU General Public License for more details.
   ~
   ~ You should have received a copy of the GNU General Public License
-  ~ along with QuickWeather.  If not, see <https://www.gnu.org/licenses/>.
+  ~ along with PureWeather.  If not, see <https://www.gnu.org/licenses/>.
   --><resources xmlns:tools="http://schemas.android.com/tools">
     <string name="onboarding_units_button_celsius">Celsius</string>
     <string name="format_feelslike">Ressenti %s</string>
@@ -35,17 +35,16 @@
     <string name="text_invalid_api_key">Clé API non valide</string>
     <string name="text_required">Requis</string>
     <string name="text_accept">Accepter</string>
-    <string name="text_invalid_subscription">QuickWeather nécessite la souscription \"OneCall\"</string>
+    <string name="text_invalid_subscription">PureWeather nécessite la souscription \"OneCall\"</string>
     <string name="text_check_for_updates">Vérifier les mises à jour</string>
-    <string name="text_report_a_bug">Signaler une erreur</string>
     <string name="text_no_new_version">Vous avez la dernière version</string>
     <string name="text_error_new_version">Une erreur s\'est produite durant la vérification</string>
     <string name="text_error_getting_release">Erreur de vérification de version</string>
     <string name="onboarding_welcome_text_title">Bienvenue</string>
     <string name="onboarding_welcome_text_thanks">Remerciements</string>
     <string name="onboarding_welcome_text_policies">Politiques</string>
-    <string name="onboarding_welcome_text_policies_paragraph">• QuickWeather est un logiciel libre sous la licence <a href="https://www.gnu.org/licenses/">GNU General Public License</a>
-\n • Vérifier <a href="https://tylerwilliamson.github.io/QuickWeather/PrivacyPolicy">la politique de confidentialité</a></string>
+    <string name="onboarding_welcome_text_policies_paragraph">• PureWeather est un logiciel libre sous la licence <a href="https://www.gnu.org/licenses/">GNU General Public License</a>
+\n • Vérifier <a href="https://tylerwilliamson.github.io/PureWeather/PrivacyPolicy">la politique de confidentialité</a></string>
     <string name="onboarding_location_text_title">Emplacements</string>
     <string name="onboarding_location_button_other_location">Autre emplacement</string>
     <string name="onboarding_location_button_current_location">Ma position</string>
@@ -79,7 +78,7 @@
     <string name="dialog_button_manual">Manuel</string>
     <string name="dialog_location_disclosure_title">Déclaration de localisation</string>
     <string name="dialog_location_denied_title">Permission Position requise</string>
-    <string name="dialog_location_denied">QuickWeather requiert l\'autorisation Position pour déterminer votre position actuelle et indiquer la météo</string>
+    <string name="dialog_location_denied">PureWeather requiert l\'autorisation Position pour déterminer votre position actuelle et indiquer la météo</string>
     <string name="dialog_search_location_title">Chercher l\'emplacement</string>
     <string name="dialog_edit_location_title">Modifier l\'emplacement</string>
     <string name="dialog_map_title">Choisir un emplacement</string>
@@ -112,13 +111,13 @@
     <string name="text_current_location">Mon emplacement</string>
     <string name="text_locations">Emplacements</string>
     <string name="text_no_location">Aucun emplacement choisi</string>
-    <string name="text_privacy_policy"><a href="https://tylerwilliamson.github.io/QuickWeather/PrivacyPolicy">Politique de confidentialité</a></string>
+    <string name="text_privacy_policy"><a href="https://tylerwilliamson.github.io/PureWeather/PrivacyPolicy">Politique de confidentialité</a></string>
     <string name="text_decline">Refuser</string>
     <string name="text_open">Ouvrir</string>
     <string name="text_whats_new">Quoi de neuf \?</string>
-    <string name="onboarding_welcome_text_paragraph">Merci d\'avoir installé mon application ! QuickWeather est libre et open source et disponible uniquement sur <a href="https://play.google.com/store/apps/details?id=com.ominous.quickweather">Google Play</a>, <a href="https://f-droid.org/en/packages/com.ominous.quickweather/">F-Droid</a>, et mon<a href="https://github.com/TylerWilliamson/QuickWeather/releases">GitHub</a>. Si votre application provient d\'ailleurs, merci de la désinstaller et d\'installer la version du Play Store, de F-Droid, ou de GitHub.</string>
+    <string name="onboarding_welcome_text_paragraph">Merci d\'avoir installé mon application ! PureWeather est libre et open source et disponible uniquement sur <a href="https://play.google.com/store/apps/details?id=com.cworld.pureweather">Google Play</a>, <a href="https://f-droid.org/en/packages/com.cworld.pureweather/">F-Droid</a>, et mon<a href="https://github.com/TylerWilliamson/PureWeather/releases">GitHub</a>. Si votre application provient d\'ailleurs, merci de la désinstaller et d\'installer la version du Play Store, de F-Droid, ou de GitHub.</string>
     <string name="text_new_version_available">Nouvelle version disponible !</string>
-    <string name="onboarding_welcome_text_thanks_paragraph">QuickWeather est rendu possible grâce à :
+    <string name="onboarding_welcome_text_thanks_paragraph">PureWeather est rendu possible grâce à :
 \n • <a href="https://openweathermap.org/">OpenWeatherMap</a> et <a href="https://open-meteo.com/">Open-Meteo</a>
 \n • <a href="https://github.com/amitjakhu/dripicons-weather">Dripicons - Weather</a> by Amit Jakhu
 \n • <a href="https://www.rainviewer.com/">RainViewer</a>
@@ -138,22 +137,22 @@
     <string name="channel_errors_name">Erreurs Météo</string>
     <string name="snackbar_obtaining_location">Acquisition de l\'emplacement actuel…</string>
     <string name="snackbar_background_location_gadgetbridge">Activer la position en arrière plan pour actualiser GadgetBridge pour Mon Emplacement</string>
-    <string name="snackbar_notification_permission">À partir d\'Android 13, QuickWeather a besoin de l\'autorisation Notifications pour afficher des notifications</string>
+    <string name="snackbar_notification_permission">À partir d\'Android 13, PureWeather a besoin de l\'autorisation Notifications pour afficher des notifications</string>
     <string name="weather_desc_dry">Sec</string>
     <string name="weather_desc_strongwinds">Vents forts</string>
-    <string name="dialog_location_disclosure">QuickWeather recueille des données de localisation pour déterminer votre emplacement actuel. Ces données ne quittent pas votre téléphone. Si vous activez également la notification persistante ou les alertes météo , QuickWeather va suivre votre positionnement en arrière plan même si l\'application est fermée ou non utilisée.</string>
+    <string name="dialog_location_disclosure">PureWeather recueille des données de localisation pour déterminer votre emplacement actuel. Ces données ne quittent pas votre téléphone. Si vous activez également la notification persistante ou les alertes météo , PureWeather va suivre votre positionnement en arrière plan même si l\'application est fermée ou non utilisée.</string>
     <string name="dialog_background_location_title">Activer le positionnement en arrière plan</string>
     <string name="dialog_edit_location_longitude">Longitude</string>
     <string name="dialog_background_location">Pour activer le positionnement en arrière plan, merci de :
 \n
-\n1. Ouvrir les paramètres de QuickWeather
+\n1. Ouvrir les paramètres de PureWeather
 \n2. Aller à « %1$s »
 \n3. Sélectionner « %2$s »
 \n4. Choisir « %3$s »
 \n5. Si présent, désactiver « %4$s »</string>
     <string name="dialog_edit_location_name">Nom de l\'emplacement</string>
     <string name="dialog_edit_location_latitude">Latitude</string>
-    <string name="dialog_translation_text">QuickWeather utilise &lt;a href=https://weblate.org/&gt;Weblate&lt;/a&gt; pour les traductions. Si vous souhaitez aider à traduire QuickWeather dans une langue que vous connaissez, merci de contribuer au &lt;a href=https://hosted.weblate.org/projects/quickweather/&gt;projet Weblate&lt;/a&gt;.</string>
+    <string name="dialog_translation_text">PureWeather utilise &lt;a href=https://weblate.org/&gt;Weblate&lt;/a&gt; pour les traductions. Si vous souhaitez aider à traduire PureWeather dans une langue que vous connaissez, merci de contribuer au &lt;a href=https://hosted.weblate.org/projects/pureweather/&gt;projet Weblate&lt;/a&gt;.</string>
     <string name="error_null_location">Impossible de déterminer l\'emplacement</string>
     <string name="error_no_results">Aucun résultat</string>
     <string name="format_alert_desc">Alerte, %1$s, %2$s</string>
@@ -216,7 +215,7 @@
     <string name="button_finish">TERMINER</string>
     <string name="openmeteo_moderatefreezingdrizzle">Bruine verglaçante modérée</string>
     <string name="openmeteo_depositingrimefog">Brouillard verglaçant</string>
-    <string name="onboarding_provider_openmeteo_text_welcome"><a href="https://open-meteo.com/">Open-Meteo</a> est un fournisseur de données météo libre et autohébergé. Open-Meteo ne nécessite pas de clé API, mais <a href="https://open-meteo.com/en/pricing">Les abonnés Open-Meteo</a> peuvent utiliser leur clé API s\'ils souhaitent soutenir Open-Meteo. Par défaut, QuickWeather utilisera l\'API Open-Meteo primaire, mais les utilisateurs peuvent choisir l\'instance Open-Meteo à utiliser ci-dessous. Voir le référentiel <a href="https://github.com/open-meteo/open-meteo">OpenMeteo GitHub</a> pour plus d\'informations sur l\'hébergement de votre propre instance.</string>
+    <string name="onboarding_provider_openmeteo_text_welcome"><a href="https://open-meteo.com/">Open-Meteo</a> est un fournisseur de données météo libre et autohébergé. Open-Meteo ne nécessite pas de clé API, mais <a href="https://open-meteo.com/en/pricing">Les abonnés Open-Meteo</a> peuvent utiliser leur clé API s\'ils souhaitent soutenir Open-Meteo. Par défaut, PureWeather utilisera l\'API Open-Meteo primaire, mais les utilisateurs peuvent choisir l\'instance Open-Meteo à utiliser ci-dessous. Voir le référentiel <a href="https://github.com/open-meteo/open-meteo">OpenMeteo GitHub</a> pour plus d\'informations sur l\'hébergement de votre propre instance.</string>
     <string name="openmeteo_thunderstorm">Orage</string>
     <string name="button_next">SUIVANT</string>
     <string name="openmeteo_thunderstormheavyhail">Orage avec grêle importante</string>
