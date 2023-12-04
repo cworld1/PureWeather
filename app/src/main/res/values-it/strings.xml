@@ -51,7 +51,7 @@
     <string name="openmeteo_moderatesnow">Neve moderata</string>
     <string name="onboarding_notif_text_title">Notifiche</string>
     <string name="card_graph_desc">Grafico della temperatura e probabilità di pioggia delle prossime 24 ore</string>
-    <string name="text_privacy_policy"><a href="https://tylerwilliamson.github.io/PureWeather/PrivacyPolicy">Informativa Privacy</a></string>
+    <string name="text_privacy_policy"><a href="https://cworld0.github.io/PureWeather/PrivacyPolicy">Informativa Privacy</a></string>
     <string name="text_invalid_api_key">Chiave API Non Valida</string>
     <string name="openmeteo_lightsnowshower">Nevicata leggera</string>
     <string name="dialog_edit_location_name">Nome della Località</string>
@@ -96,7 +96,7 @@
     <string name="channel_persistent_name">Meteo Corrente</string>
     <string name="weather_desc_breezy">Ventilato</string>
     <string name="onboarding_welcome_text_policies_paragraph">• PureWeather è un software libero sotto licenza <a href="https://www.gnu.org/licenses/">GNU General Public License</a>
-\n • Dai uno sguardo all\'<a href="https://tylerwilliamson.github.io/PureWeather/PrivacyPolicy">Informativa Privacy</a></string>
+\n • Dai uno sguardo all\'<a href="https://cworld0.github.io/PureWeather/PrivacyPolicy">Informativa Privacy</a></string>
     <string name="openmeteo_lightrain">Pioggia lieve</string>
     <string name="openmeteo_lightdrizzle">Pioggerella leggera</string>
     <string name="format_feelslike">Percepita %s</string>
@@ -127,7 +127,7 @@
     <string name="dialog_location_disclosure_title">Divulgazione della Posizione</string>
     <string name="error_unexpected_api_result">Risultato API Inaspettato</string>
     <string name="onboarding_provider_openmeteo_instance_hint">Istanza Open-Meteo (opzionale)</string>
-    <string name="onboarding_welcome_text_paragraph">Grazie per aver installato la mia app! PureWeather è GRATIS e Open Source ed è disponibile unicamente su <a href="https://play.google.com/store/apps/details?id=com.cworld.pureweather">Google Play</a>, <a href="https://f-droid.org/en/packages/com.cworld.pureweather/">F-Droid</a>, ed il mio <a href="https://github.com/TylerWilliamson/PureWeather/releases">GitHub</a>. Se hai installato questa applicazione da un\'altra origine, per favore disinstallala ed installa la versione disponibile su Play Store, F-Droid, o GitHub.</string>
+    <string name="onboarding_welcome_text_paragraph">Grazie per aver installato la mia app! PureWeather è GRATIS e Open Source ed è disponibile unicamente su <a href="https://play.google.com/store/apps/details?id=com.cworld.pureweather">Google Play</a>, <a href="https://f-droid.org/en/packages/com.cworld.pureweather/">F-Droid</a>, ed il mio <a href="https://github.com/cworld0/PureWeather/releases">GitHub</a>. Se hai installato questa applicazione da un\'altra origine, per favore disinstallala ed installa la versione disponibile su Play Store, F-Droid, o GitHub.</string>
     <string name="weather_desc_dry">Secco</string>
     <string name="onboarding_location_map_desc">Mappa</string>
     <string name="onboarding_provider_openmeteo_text_welcome"><a href="https://open-meteo.com/">Open-Meteo</a> è un provider meteo Gratis, Open Source e \"self-hostable\". Open-Meteo non richiede una Chiave API, ma <a href="https://open-meteo.com/en/pricing"> gli abbonati Open-Meteo</a> possono usare la propria Chiave API per supportare Open-Meteo. Di default, PureWeather userà la API primaria di Open-Meteo, ma gli utenti possono decidere quale istanza Open-Meteo utilizzare qui sotto. Visualizza il <a href="https://github.com/open-meteo/open-meteo"> repository OpenMeteo su GitHub</a> per maggiori informazioni sul hosting di una propria istanza.</string>

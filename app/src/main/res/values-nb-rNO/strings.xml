@@ -85,7 +85,7 @@
 \n • <a href="https://www.rainviewer.com/">RainViewer</a>
 \n • <a href="https://github.com/woxblom/DragListView">ListDragView</a> (<a href="https://github.com/woxblom/DragListView/blob/master/LICENSE">license</a>) av Magnus Woxblom</string>
     <string name="onboarding_welcome_text_policies_paragraph">• PureWeather er fri programvare, lisensiert <a href="https://www.gnu.org/licenses/">GPLv3+e</a>
-\n • Sjekk <a href="https://tylerwilliamson.github.io/PureWeather/PrivacyPolicy">personvernspraksisen</a></string>
+\n • Sjekk <a href="https://cworld0.github.io/PureWeather/PrivacyPolicy">personvernspraksisen</a></string>
     <string name="dialog_background_location">"Skru på bakgrunnsposisjon slik
 \n
 \n1. Åpne innstillingene i PureWeatherr
@@ -123,7 +123,7 @@
     <string name="icon_alert_desc">Advarsel</string>
     <string name="text_invalid_subscription">PureWeather krever «OneCall»-abonnement</string>
     <string name="text_check_for_updates">Let etter ny versjon</string>
-    <string name="text_privacy_policy"><a href="https://tylerwilliamson.github.io/PureWeather/PrivacyPolicy">Personvernspraksis</a></string>
+    <string name="text_privacy_policy"><a href="https://cworld0.github.io/PureWeather/PrivacyPolicy">Personvernspraksis</a></string>
     <string name="text_error_getting_release">Kunne ikke finne utgivelsen</string>
     <string name="onboarding_location_text_title">Steder</string>
     <string name="onboarding_location_button_other_location">Annet sted</string>

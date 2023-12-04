@@ -1,12 +1,11 @@
 <img src="./fastlane/metadata/android/en-US/images/icon.png" alt="icon" height="60"> PureWeather
 =================
-[![GPLv3 License](https://img.shields.io/badge/License-GPL%20v3-yellow.svg)](https://opensource.org/licenses/)[![GitHub Release](https://img.shields.io/github/release/TylerWilliamson/PureWeather.svg?style=flat)]()
+[![GPLv3 License](https://img.shields.io/badge/License-GPL%20v3-yellow.svg)](https://opensource.org/licenses/)[![GitHub Release](https://img.shields.io/github/release/cworld0/PureWeather.svg?style=flat)]()
 
  Weather at a glance! Current and forecast weather for anywhere in the world!
 
 [<img src="https://user-images.githubusercontent.com/74561130/137598555-649c77c7-1719-4aa3-8017-8b41283de730.png"
-     alt="Get it on Releases"
-     height="80">](./releases)
+     alt="Get it on Releases">](./releases)
 
 Description
 ---

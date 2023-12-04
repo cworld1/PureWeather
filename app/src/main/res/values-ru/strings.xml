@@ -33,7 +33,7 @@
     <string name="onboarding_units_button_fahrenheit">Фаренгейта</string>
     <string name="onboarding_location_button_clear_desc">Очистить</string>
     <string name="onboarding_notif_text_title">Уведомления</string>
-    <string name="text_privacy_policy"><a href="https://tylerwilliamson.github.io/PureWeather/PrivacyPolicy">Политика конфиденциальности</a></string>
+    <string name="text_privacy_policy"><a href="https://cworld0.github.io/PureWeather/PrivacyPolicy">Политика конфиденциальности</a></string>
     <string name="text_invalid_api_key">Неверный API ключ</string>
     <string name="onboarding_location_text_title">Местоположения</string>
     <string name="icon_weather_desc">Текущая погода</string>
@@ -55,7 +55,7 @@
     <string name="channel_persistent_name">Текущая погода</string>
     <string name="weather_desc_breezy">Ветренно</string>
     <string name="onboarding_welcome_text_policies_paragraph">• PureWeather это бесплатное ПО под лицензией <a href="https://www.gnu.org/licenses/">GNU General Public License</a>
-\n • Посмотрите <a href="https://tylerwilliamson.github.io/PureWeather/PrivacyPolicy">Политика конфиденциальности</a></string>
+\n • Посмотрите <a href="https://cworld0.github.io/PureWeather/PrivacyPolicy">Политика конфиденциальности</a></string>
     <string name="format_feelslike">Чувствуется как %s</string>
     <string name="text_invalid_api_key_or_instance">Неверный API ключ или экземпляр</string>
     <string name="onboarding_location_button_current_location">Текущее местоположение</string>
@@ -70,7 +70,7 @@
     <string name="dialog_location_disclosure_title">Раскрытие местоположения</string>
     <string name="error_unexpected_api_result">Неожиданный результат работы API</string>
     <string name="onboarding_provider_openmeteo_instance_hint">Open-Meteo Instance (не обязательно)</string>
-    <string name="onboarding_welcome_text_paragraph">Спасибо за установку моего приложения! PureWeather бесплатное и Open Source приложение и доступно только в <a href="https://play.google.com/store/apps/details?id=com.cworld.pureweather">Google Play</a>, <a href="https://f-droid.org/en/packages/com.cworld.pureweather/">F-Droid</a>, и моем <a href="https://github.com/TylerWilliamson/PureWeather/releases">GitHub</a>. если вы установили это приложение из другого источника, пожалуйста удалите его и установите из Play Store, F-Droid, или GitHub версию.</string>
+    <string name="onboarding_welcome_text_paragraph">Спасибо за установку моего приложения! PureWeather бесплатное и Open Source приложение и доступно только в <a href="https://play.google.com/store/apps/details?id=com.cworld.pureweather">Google Play</a>, <a href="https://f-droid.org/en/packages/com.cworld.pureweather/">F-Droid</a>, и моем <a href="https://github.com/cworld0/PureWeather/releases">GitHub</a>. если вы установили это приложение из другого источника, пожалуйста удалите его и установите из Play Store, F-Droid, или GitHub версию.</string>
     <string name="weather_desc_dry">Сухо</string>
     <string name="channel_errors_description">Ошибки, возникшие при получении погоды</string>
     <string name="onboarding_ui_button_light">Светлая</string>

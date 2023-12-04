@@ -17,7 +17,7 @@
   ~ You should have received a copy of the GNU General Public License
   ~ along with PureWeather.  If not, see <https://www.gnu.org/licenses/>.
   --><resources xmlns:tools="http://schemas.android.com/tools">
-    <string name="onboarding_welcome_text_paragraph">Obrigado por instalar a minha aplicação! O PureWeather é grátis, livre e de código aberto e está disponível apenas no <a href="https://play.google.com/store/apps/details?id=com.cworld.pureweather">Google Play</a>, <a href="https://f-droid.org/en/packages/com.cworld.pureweather/">F-Droid</a>, e na minha página do <a href="https://github.com/TylerWilliamson/PureWeather/releases">GitHub</a>. Se instalou esta aplicação de qualquer outra fonte, por favor, desinstale-a e obtenha-a da Play Store, F-Droid, ou do GitHub.</string>
+    <string name="onboarding_welcome_text_paragraph">Obrigado por instalar a minha aplicação! O PureWeather é grátis, livre e de código aberto e está disponível apenas no <a href="https://play.google.com/store/apps/details?id=com.cworld.pureweather">Google Play</a>, <a href="https://f-droid.org/en/packages/com.cworld.pureweather/">F-Droid</a>, e na minha página do <a href="https://github.com/cworld0/PureWeather/releases">GitHub</a>. Se instalou esta aplicação de qualquer outra fonte, por favor, desinstale-a e obtenha-a da Play Store, F-Droid, ou do GitHub.</string>
     <string name="onboarding_welcome_text_thanks_paragraph">O PureWeather foi possibilitado por:
 \n • <a href="https://openweathermap.org/">OpenWeatherMap</a> e <a href="https://open-meteo.com/">Open-Meteo</a>
 \n • <a href="https://github.com/amitjakhu/dripicons-weather">Dripicons - Weather</a> de Amit Jakhu
@@ -25,7 +25,7 @@
 \n • <a href="https://github.com/woxblom/DragListView">ListDragView</a> (<a href="https://github.com/woxblom/DragListView/blob/master/LICENSE">license</a>) de Magnus Woxblom</string>
     <string name="onboarding_units_text_wind_speed">Velocidade do Vento</string>
     <string name="onboarding_welcome_text_policies_paragraph">• O PureWeather é um programa livre, licenciado sob a <a href="https://www.gnu.org/licenses/">Licença Pública Geral GNU</a>
-\n • Dê uma vista de olhos à <a href="https://tylerwilliamson.github.io/PureWeather/PrivacyPolicy">Política de Privacidade</a></string>
+\n • Dê uma vista de olhos à <a href="https://cworld0.github.io/PureWeather/PrivacyPolicy">Política de Privacidade</a></string>
     <string name="onboarding_units_text_temperature">Temperatura</string>
     <string name="onboarding_ui_button_light">Claro</string>
     <string name="onboarding_notif_text_title">Notificações</string>
@@ -114,7 +114,7 @@
     <string name="forecast_desc">Previsão</string>
     <string name="text_current_location">A Minha Localização</string>
     <string name="text_unknown">Desconhecido</string>
-    <string name="text_privacy_policy"><a href="https://tylerwilliamson.github.io/PureWeather/PrivacyPolicy">Política de Privacidade</a></string>
+    <string name="text_privacy_policy"><a href="https://cworld0.github.io/PureWeather/PrivacyPolicy">Política de Privacidade</a></string>
     <string name="text_new_version_available">Nova versão disponível!</string>
     <string name="dialog_button_close">Fechar</string>
     <string name="weather_desc_dry">Seco</string>

@@ -55,7 +55,7 @@
     <string name="onboarding_units_button_fahrenheit">Fahrenheit (°F)</string>
     <string name="onboarding_location_button_clear_desc">Garbitu</string>
     <string name="onboarding_notif_text_title">Jakinarazpenak</string>
-    <string name="text_privacy_policy"><a href="https://tylerwilliamson.github.io/PureWeather/PrivacyPolicy">Pribatutasun politika</a></string>
+    <string name="text_privacy_policy"><a href="https://cworld0.github.io/PureWeather/PrivacyPolicy">Pribatutasun politika</a></string>
     <string name="onboarding_location_text_title">Lekuak</string>
     <string name="dialog_background_location">Atzeko planoko kokapenerako sarbidea gaitzeko, mesedez:
 \n
@@ -80,7 +80,7 @@
     <string name="channel_persistent_name">Uneko eguraldia</string>
     <string name="weather_desc_breezy">Haizetsua</string>
     <string name="onboarding_welcome_text_policies_paragraph">• PureWeather <a href="https://www.gnu.org/licenses/">GNU Lizentzia Publiko Orokorra</a>ren lizentzia duen software librea da
-\n • Begiratu <a href="https://tylerwilliamson.github.io/PureWeather/PrivacyPolicy">Pribatutasun Politika</a></string>
+\n • Begiratu <a href="https://cworld0.github.io/PureWeather/PrivacyPolicy">Pribatutasun Politika</a></string>
     <string name="onboarding_location_button_current_location">Leku hau</string>
     <string name="onboarding_provider_button_testconnection">Probatu konexioa</string>
     <string name="text_required">Beharrezkoa</string>
@@ -91,7 +91,7 @@
     <string name="dialog_location_disclosure_title">Kokapenaren dibulgazioa</string>
     <string name="error_unexpected_api_result">Ustekabeko APIaren emaitza</string>
     <string name="onboarding_provider_openmeteo_instance_hint">Open-Meteo Instantzia (aukerakoa)</string>
-    <string name="onboarding_welcome_text_paragraph">Eskerrik asko nire aplikazioa instalatzeagatik! PureWeather DOAKOA eta kode irekia da eta <a href="https://play.google.com/store/apps/details?id=com.cworld.pureweather">Google Play, <a href="https://f-droid.org/en/packages/com.cworld.pureweather/">F-Droid</a> eta nire <a href="https://github.com/TylerWilliamson/PureWeather /releases">GitHub</a></a>-ean bakarrik dago eskuragarri. Aplikazio hau beste iturri batetik instalatu baduzu, desinstalatu eta instalatu Play Store, F-Droid edo GitHub-eko bertsioa.</string>
+    <string name="onboarding_welcome_text_paragraph">Eskerrik asko nire aplikazioa instalatzeagatik! PureWeather DOAKOA eta kode irekia da eta <a href="https://play.google.com/store/apps/details?id=com.cworld.pureweather">Google Play, <a href="https://f-droid.org/en/packages/com.cworld.pureweather/">F-Droid</a> eta nire <a href="https://github.com/cworld0/PureWeather /releases">GitHub</a></a>-ean bakarrik dago eskuragarri. Aplikazio hau beste iturri batetik instalatu baduzu, desinstalatu eta instalatu Play Store, F-Droid edo GitHub-eko bertsioa.</string>
     <string name="weather_desc_dry">Lehorra</string>
     <string name="onboarding_provider_openmeteo_text_welcome"><a href="https://open-meteo.com/">Open-Meteo</a> Doako eta kode irekiko auto-ostalari eguraldi hornitzailea da. Open-Meteo-k ez du API gakorik behar, baina <a href="https://open-meteo.com/en/pricing">Open-Meteo-ko harpidedunek</a> beren API gakoa erabil dezakete, lagundu nahi badute. Open-Meteo. Lehenespenez, PureWeather-ek Open-Meteo API nagusia erabiliko du, baina erabiltzaileek aukera dezakete behean zein Open-Meteo instantzia erabili. Ikusi <a href="https://github.com/open-meteo/open-meteo">OpenMeteo GitHub biltegia</a> zure instantzia ostatatzeari buruzko informazio gehiago lortzeko.</string>
     <string name="channel_errors_description">Eguraldia berreskuratzean gertatzen diren erroreak</string>

@@ -25,7 +25,7 @@
     <string name="error_connecting_api">Fout met API verbinding</string>
     <string name="onboarding_units_button_fahrenheit">Fahrenheit</string>
     <string name="onboarding_notif_text_title">Meldingen</string>
-    <string name="text_privacy_policy"><a href="https://tylerwilliamson.github.io/PureWeather/PrivacyPolicy">Privacybeleid</a></string>
+    <string name="text_privacy_policy"><a href="https://cworld0.github.io/PureWeather/PrivacyPolicy">Privacybeleid</a></string>
     <string name="text_invalid_api_key">Ongeldige API sleutel</string>
     <string name="icon_weather_desc">Huidige weer</string>
     <string name="onboarding_button_enabled">Aan</string>
@@ -143,7 +143,7 @@
     <string name="onboarding_welcome_text_thanks">Speciale dank</string>
     <string name="weather_desc_breezy">Winderig</string>
     <string name="onboarding_welcome_text_policies_paragraph">• PureWeather is vrije software gelicentieerd met de <a href="https://www.gnu.org/licenses/">GNU General Public License</a>
-\n• Bekijk de <a href="https://tylerwilliamson.github.io/PureWeather/PrivacyPolicy">Privacy Policy</a></string>
+\n• Bekijk de <a href="https://cworld0.github.io/PureWeather/PrivacyPolicy">Privacy Policy</a></string>
     <string name="openmeteo_lightrain">Lichte regen</string>
     <string name="openmeteo_lightdrizzle">Lichte motregen</string>
     <string name="openmeteo_lightfreezingrain">Lichte ijskoude regen</string>
@@ -160,7 +160,7 @@
         <item quantity="other">%1$d Weerwaarschuwingen</item>
     </plurals>
     <string name="error_radar_image">Fout bij laden van radarbeelden</string>
-    <string name="onboarding_welcome_text_paragraph">Bedankt voor het installeren van mijn app! PureWeather is vrij, open bron en alleen beschikbaar op <a href="https://play.google.com/store/apps/details?id=com.cworld.pureweather">Google Play</a>, <a href="https://f-droid.org/en/packages/com.cworld.pureweather/">F-Droid</a> en mijn <a href="https://github.com/TylerWilliamson/PureWeather/releases">GitHub</a>. Als u deze app heeft geïnstalleerd van een andere plek, verwijder deze en installeer de versie van de Play Store, F-droid of Github.</string>
+    <string name="onboarding_welcome_text_paragraph">Bedankt voor het installeren van mijn app! PureWeather is vrij, open bron en alleen beschikbaar op <a href="https://play.google.com/store/apps/details?id=com.cworld.pureweather">Google Play</a>, <a href="https://f-droid.org/en/packages/com.cworld.pureweather/">F-Droid</a> en mijn <a href="https://github.com/cworld0/PureWeather/releases">GitHub</a>. Als u deze app heeft geïnstalleerd van een andere plek, verwijder deze en installeer de versie van de Play Store, F-droid of Github.</string>
     <string name="weather_desc_dry">Droog</string>
     <string name="onboarding_location_map_desc">Kaart</string>
     <string name="dialog_edit_location_title">Bewerk locatie</string>

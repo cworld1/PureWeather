@@ -26,7 +26,7 @@
     <string name="format_alert">%1$s 时激活</string>
     <string name="format_precipitation_chance">%1$s chance of %2$s</string>
     <string name="onboarding_welcome_text_title">欢迎</string>
-    <string name="onboarding_welcome_text_paragraph">感谢安装此应用！PureWeather是一款自由、开源应用，仅发布在 <a href="https://play.google.com/store/apps/details?id=com.cworld.pureweather">Google Play</a>、<a href="https://f-droid.org/en/packages/com.cworld.pureweather/">F-Droid</a>和我的<a href="https://github.com/TylerWilliamson/PureWeather/releases">GitHub</a>页面。如您从其他来源安装了此应用，请卸载，然后安装Google Play商店、F-Droid或GitHub上的版本。</string>
+    <string name="onboarding_welcome_text_paragraph">感谢安装此应用！PureWeather是一款自由、开源应用，仅发布在 <a href="https://play.google.com/store/apps/details?id=com.cworld.pureweather">Google Play</a>、<a href="https://f-droid.org/en/packages/com.cworld.pureweather/">F-Droid</a>和我的<a href="https://github.com/cworld0/PureWeather/releases">GitHub</a>页面。如您从其他来源安装了此应用，请卸载，然后安装Google Play商店、F-Droid或GitHub上的版本。</string>
     <string name="onboarding_welcome_text_thanks">特别致谢</string>
     <string name="onboarding_welcome_text_thanks_paragraph">PureWeather的诞生，有赖于：
 \n • <a href="https://openweathermap.org/">OpenWeatherMap</a> + <a href="https://open-meteo.com/">Open-Meteo</a>
@@ -59,7 +59,7 @@
     <string name="text_invalid_api_key">API Key无效</string>
     <string name="text_invalid_subscription">PureWeather需要“OneCall”订阅</string>
     <string name="text_required">必需</string>
-    <string name="text_privacy_policy"><a href="https://tylerwilliamson.github.io/PureWeather/PrivacyPolicy">隐私政策</a></string>
+    <string name="text_privacy_policy"><a href="https://cworld0.github.io/PureWeather/PrivacyPolicy">隐私政策</a></string>
     <string name="text_accept">接受</string>
     <string name="text_decline">拒绝</string>
     <string name="text_unknown">未知</string>
@@ -73,7 +73,7 @@
     <string name="text_error_getting_release">查找发布时出错</string>
     <string name="onboarding_welcome_text_policies">政策</string>
     <string name="onboarding_welcome_text_policies_paragraph">• PureWeather是一款自由软件，在<a href="https://www.gnu.org/licenses/">GNU通用公共许可协议</a>下发布。
-\n • 查看<a href="https://tylerwilliamson.github.io/PureWeather/PrivacyPolicy">隐私政策</a></string>
+\n • 查看<a href="https://cworld0.github.io/PureWeather/PrivacyPolicy">隐私政策</a></string>
     <string name="onboarding_location_text_title">位置</string>
     <string name="onboarding_location_drag_anchor_desc">拖拽点</string>
     <string name="onboarding_units_text_title">单位</string>

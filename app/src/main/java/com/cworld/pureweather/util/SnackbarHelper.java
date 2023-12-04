@@ -138,7 +138,7 @@ public class SnackbarHelper {
     }
 
     public void notifyNewVersion(GithubUtils.GitHubRelease latestRelease) {
-        final Uri githubUri = Uri.parse("https://github.com/TylerWilliamson/PureWeather/releases/latest");
+        final Uri githubUri = Uri.parse("https://github.com/cworld0/PureWeather/releases/latest");
         final Uri googlePlayUri = Uri.parse("https://play.google.com/web/store/apps/details?id=com.cworld.pureweather");
         final Uri fdroidUri = Uri.parse("https://f-droid.org/en/packages/com.cworld.pureweather/");
 
